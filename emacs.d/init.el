@@ -7,6 +7,8 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
+(add-to-list 'load-path "~/.emacs.d/contrib/smex")
+
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 (setq confirm-nonexistent-file-or-buffer nil)
