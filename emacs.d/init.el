@@ -28,6 +28,9 @@
 (ido-everywhere t)
 (ido-mode 1)
 
+(require 'ido-ubiquitous)
+(ido-ubiquitous-mode 1)
+
 (require 'smex)
 (smex-initialize)
 (global-set-key (kbd "M-x") 'smex)

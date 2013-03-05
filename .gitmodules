@@ -4,3 +4,6 @@
 [submodule "emacs.d/contrib/expand-region.el"]
 	path = emacs.d/contrib/expand-region.el
 	url = git://github.com/magnars/expand-region.el.git
+[submodule "emacs.d/contrib/ido-ubiquitous"]
+	path = emacs.d/contrib/ido-ubiquitous
+	url = git://github.com/DarwinAwardWinner/ido-ubiquitous.git
