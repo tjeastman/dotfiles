@@ -31,3 +31,10 @@
 (global-set-key (kbd "C-c C-m") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+(setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
+(setq backup-by-copying t
+      delete-old-versions t
+      kept-new-versions 6
+      kept-old-versions 2
+      version-control t)
