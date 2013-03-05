@@ -9,6 +9,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/contrib/smex")
 (add-to-list 'load-path "~/.emacs.d/contrib/expand-region.el")
+(add-to-list 'load-path "~/.emacs.d/contrib/ido-ubiquitous")
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
