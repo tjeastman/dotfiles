@@ -10,6 +10,11 @@
 (add-to-list 'load-path "~/.emacs.d/contrib/smex")
 (add-to-list 'load-path "~/.emacs.d/contrib/expand-region.el")
 (add-to-list 'load-path "~/.emacs.d/contrib/ido-ubiquitous")
+(add-to-list 'load-path "~/.emacs.d/themes/zenburn-emacs")
+
+(require 'color-theme-zenburn)
+(when (display-graphic-p)
+  (color-theme-zenburn))
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
