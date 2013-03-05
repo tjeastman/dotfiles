@@ -1,3 +1,6 @@
 [submodule "emacs.d/contrib/smex"]
 	path = emacs.d/contrib/smex
 	url = git://github.com/nonsequitur/smex.git
+[submodule "emacs.d/contrib/expand-region.el"]
+	path = emacs.d/contrib/expand-region.el
+	url = git://github.com/magnars/expand-region.el.git

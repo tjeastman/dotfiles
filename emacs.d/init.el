@@ -8,6 +8,7 @@
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
 (add-to-list 'load-path "~/.emacs.d/contrib/smex")
+(add-to-list 'load-path "~/.emacs.d/contrib/expand-region.el")
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
@@ -40,11 +41,12 @@
 (setq-default save-place t)
 (setq save-place-file (expand-file-name "places" user-emacs-directory))
 
+(require 'expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
+
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 (setq backup-by-copying t
       delete-old-versions t
       kept-new-versions 6
       kept-old-versions 2
       version-control t)
-
-
