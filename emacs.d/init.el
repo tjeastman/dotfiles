@@ -47,6 +47,15 @@
 (require 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
 
+(require 'paren)
+(set-face-background 'show-paren-match-face "#333333")
+(set-face-foreground 'show-paren-mismatch-face "red")
+(set-face-attribute 'show-paren-match-face nil :weight 'normal)
+(set-face-attribute 'show-paren-mismatch-face nil :weight 'normal)
+(show-paren-mode t)
+(setq show-paren-delay 0)
+(setq show-paren-style 'expression)
+
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 (setq backup-by-copying t
       delete-old-versions t
