@@ -1,8 +1,8 @@
 [submodule "emacs.d/contrib/smex"]
 	path = emacs.d/contrib/smex
 	url = git://github.com/nonsequitur/smex.git
-[submodule "emacs.d/contrib/expand-region.el"]
-	path = emacs.d/contrib/expand-region.el
+[submodule "emacs.d/contrib/expand-region"]
+	path = emacs.d/contrib/expand-region
 	url = git://github.com/magnars/expand-region.el.git
 [submodule "emacs.d/contrib/ido-ubiquitous"]
 	path = emacs.d/contrib/ido-ubiquitous
