@@ -78,6 +78,11 @@
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "C-;") 'backward-kill-word)
 
+(setq org-directory "~/Documents/org/")
+(setq org-mobile-directory "~/Dropbox/MobileOrg")
+(setq org-mobile-inbox-for-pull "~/Documents/org/mobile.org")
+(setq org-agenda-files '("~/Documents/org/agenda/"))
+
 (defun toggle-fullscreen ()
   (interactive)
   (set-frame-parameter nil 'fullscreen
