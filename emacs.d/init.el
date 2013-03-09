@@ -31,6 +31,7 @@
 (setq ido-create-new-buffer 'always)
 (setq ido-use-filename-at-point 'guess)
 (setq ido-ignore-extensions t)
+(setq ido-auto-merge-work-directories-length -1)
 (ido-everywhere t)
 (ido-mode 1)
 
