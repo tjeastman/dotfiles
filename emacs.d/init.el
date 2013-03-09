@@ -86,6 +86,11 @@
 (setq org-mobile-inbox-for-pull "~/Documents/org/mobile.org")
 (setq org-agenda-files '("~/Documents/org/agenda/"))
 
+; eliminate bold text
+(mapc (lambda (face)
+	(set-face-attribute face nil :weight 'normal))
+      (face-list))
+
 (defun toggle-fullscreen ()
   (interactive)
   (set-frame-parameter nil 'fullscreen
