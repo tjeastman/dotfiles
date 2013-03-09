@@ -78,6 +78,9 @@
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "C-;") 'backward-kill-word)
 
+(global-set-key (kbd "C-c i") 'imenu)
+(set-default 'imenu-auto-rescan t)
+
 (setq org-directory "~/Documents/org/")
 (setq org-mobile-directory "~/Dropbox/MobileOrg")
 (setq org-mobile-inbox-for-pull "~/Documents/org/mobile.org")
