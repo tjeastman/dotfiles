@@ -7,9 +7,9 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
-(add-to-list 'load-path "~/.emacs.d/contrib/smex")
-(add-to-list 'load-path "~/.emacs.d/contrib/expand-region.el")
-(add-to-list 'load-path "~/.emacs.d/contrib/ido-ubiquitous")
+(let ((default-directory "~/.emacs.d/contrib/"))
+  (normal-top-level-add-subdirs-to-load-path))
+
 (add-to-list 'load-path "~/.emacs.d/themes/zenburn-emacs")
 
 (require 'color-theme-zenburn)
