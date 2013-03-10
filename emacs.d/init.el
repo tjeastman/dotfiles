@@ -39,6 +39,7 @@
 (ido-ubiquitous-mode 1)
 
 (require 'smex)
+(setq smex-save-file "~/.emacs.d/smex-items")
 (smex-initialize)
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "C-x C-m") 'smex)
