@@ -126,4 +126,5 @@
 
 (add-hook 'python-mode-hook
           (lambda ()
-	    (add-to-list 'ac-sources 'ac-source-ropemacs)))
+	    (add-to-list 'ac-sources 'ac-source-ropemacs)
+	    (add-to-list 'ac-sources 'ac-source-yasnippet)))
