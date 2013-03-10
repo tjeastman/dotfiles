@@ -32,6 +32,7 @@
 (setq ido-use-filename-at-point 'guess)
 (setq ido-ignore-extensions t)
 (setq ido-auto-merge-work-directories-length -1)
+(setq ido-save-directory-list-file "~/.emacs.d/ido.last")
 (ido-everywhere t)
 (ido-mode 1)
 
