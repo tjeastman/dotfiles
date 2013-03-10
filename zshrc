@@ -38,3 +38,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh/history
+
+export PYTHONPATH="$HOME/local/lib/python/"
