@@ -66,6 +66,16 @@
 (setq show-paren-delay 0)
 (setq show-paren-style 'expression)
 
+(setq skeleton-pair t)
+(global-set-key "(" 'skeleton-pair-insert-maybe)
+(global-set-key "[" 'skeleton-pair-insert-maybe)
+(global-set-key "{" 'skeleton-pair-insert-maybe)
+(global-set-key "\"" 'skeleton-pair-insert-maybe)
+
+(add-hook 'python-mode-hook
+	  (lambda ()
+	    (define-key py-mode-map "'" 'skeleton-pair-insert-maybe)))
+
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 (setq backup-by-copying t
       delete-old-versions t
