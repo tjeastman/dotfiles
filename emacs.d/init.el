@@ -111,3 +111,19 @@
                        (if (frame-parameter nil 'fullscreen)
                            nil
                          'fullboth)))
+
+(setenv "PYTHONPATH" (concat (getenv "HOME") "/local/lib/python/"))
+
+(require 'pymacs)
+(pymacs-load "ropemacs" "rope-")
+(setq ropemacs-guess-project t)
+(setq ropemacs-enable-autoimport t)
+(setq ropemacs-autoimport-modules '("os" "sys"))
+
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(ac-config-default)
+
+(add-hook 'python-mode-hook
+          (lambda ()
+	    (add-to-list 'ac-sources 'ac-source-ropemacs)))
