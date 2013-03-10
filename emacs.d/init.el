@@ -11,6 +11,7 @@
 (add-to-list 'load-path "~/.emacs.d/contrib/ido-ubiquitous")
 (add-to-list 'load-path "~/.emacs.d/contrib/Pymacs")
 (add-to-list 'load-path "~/.emacs.d/contrib/smex")
+(add-to-list 'load-path "~/.emacs.d/contrib/yasnippet")
 (add-to-list 'load-path "~/.emacs.d/themes/zenburn-emacs")
 
 (require 'color-theme-zenburn)
@@ -111,6 +112,9 @@
                        (if (frame-parameter nil 'fullscreen)
                            nil
                          'fullboth)))
+
+(require 'yasnippet)
+(yas/global-mode 1)
 
 (setenv "PYTHONPATH" (expand-file-name "~/local/lib/python/"))
 
