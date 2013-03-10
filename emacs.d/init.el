@@ -112,7 +112,7 @@
                            nil
                          'fullboth)))
 
-(setenv "PYTHONPATH" (concat (getenv "HOME") "/local/lib/python/"))
+(setenv "PYTHONPATH" (expand-file-name "~/local/lib/python/"))
 
 (require 'pymacs)
 (pymacs-load "ropemacs" "rope-")
