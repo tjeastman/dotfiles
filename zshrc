@@ -5,7 +5,7 @@ ZSH=$HOME/.zsh/contrib/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="pygmalion"
+ZSH_THEME=""
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -40,3 +40,5 @@ source $ZSH/oh-my-zsh.sh
 HISTFILE=$HOME/.zsh/history
 
 export PYTHONPATH="$HOME/local/lib/python/"
+
+source $HOME/.zsh/custom.zsh-theme
