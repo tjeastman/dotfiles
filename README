@@ -1,22 +1,27 @@
+mkdir src
+cd src
+
 git clone https://github.com/tjeastman/dotfiles.git
-cd dotfiles
-ln -s ./screenrc $HOME/.screenrc
-ln -s ./emacs.d $HOME/.emacs.d
-ln -s ./zsh $HOME/.zsh
-ln -s ./zshrc $HOME/.zshrc
-ln -s ./gitconfig $HOME/.gitconfig
 
-touch $HOME/.gitconfig.user
+cd $HOME
+ln -s src/dotfiles/screenrc .screenrc
+ln -s src/dotfiles/emacs.d .emacs.d
+ln -s src/dotfiles/zsh .zsh
+ln -s src/dotfiles/zshrc .zshrc
+ln -s src/dotfiles/gitconfig .gitconfig
 
+touch .gitconfig.user
+
+cd src
 hg clone https://bitbucket.org/agr/rope
 hg clone https://bitbucket.org/agr/ropemode
 hg clone https://bitbucket.org/agr/ropemacs
 
 cd rope
 python setup.py install --home=$HOME/local/
-cd ropemode
+cd ../ropemode
 python setup.py install --home=$HOME/local/
-cd ropemacs
+cd ../ropemacs
 python setup.py install --home=$HOME/local/
 
 cd ~/.emacs.d/contrib/Pymacs
