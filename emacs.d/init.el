@@ -59,8 +59,9 @@
 (global-set-key (kbd "C-=") 'er/expand-region)
 
 (require 'paren)
-(set-face-background 'show-paren-match-face "#333333")
-(set-face-foreground 'show-paren-mismatch-face "red")
+(when (display-graphic-p)
+  (set-face-background 'show-paren-match-face "#333333")
+  (set-face-foreground 'show-paren-mismatch-face "red"))
 (set-face-attribute 'show-paren-match-face nil :weight 'normal)
 (set-face-attribute 'show-paren-mismatch-face nil :weight 'normal)
 (show-paren-mode t)
