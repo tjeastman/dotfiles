@@ -4,6 +4,7 @@
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
+(if (fboundp 'global-font-lock-mode) (global-font-lock-mode t))
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
