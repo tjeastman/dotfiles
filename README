@@ -1,0 +1,24 @@
+git clone https://github.com/tjeastman/dotfiles.git
+cd dotfiles
+ln -s ./screenrc $HOME/.screenrc
+ln -s ./emacs.d $HOME/.emacs.d
+ln -s ./zsh $HOME/.zsh
+ln -s ./zshrc $HOME/.zshrc
+ln -s ./gitconfig $HOME/.gitconfig
+
+touch $HOME/.gitconfig.user
+
+hg clone https://bitbucket.org/agr/rope
+hg clone https://bitbucket.org/agr/ropemode
+hg clone https://bitbucket.org/agr/ropemacs
+
+cd rope
+python setup.py install --home=$HOME/local/
+cd ropemode
+python setup.py install --home=$HOME/local/
+cd ropemacs
+python setup.py install --home=$HOME/local/
+
+cd ~/.emacs.d/contrib/Pymacs
+make
+python setup.py install --home=$HOME/local/
