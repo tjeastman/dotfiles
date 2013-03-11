@@ -25,6 +25,9 @@
 (setq require-final-newline nil)
 (setq mouse-yank-at-point t)
 
+(setq indent-tabs-mode nil)
+(setq tab-width 4)
+
 (delete-selection-mode t)
 (global-hl-line-mode 1)
 (auto-compression-mode t)
@@ -132,9 +135,9 @@
 
 (add-hook 'python-mode-hook
           (lambda ()
-	    (add-to-list 'ac-sources 'ac-source-ropemacs)
-	    (add-to-list 'ac-sources 'ac-source-yasnippet)
-	    (flymake-mode)))
+            (add-to-list 'ac-sources 'ac-source-ropemacs)
+            (add-to-list 'ac-sources 'ac-source-yasnippet)
+            (flymake-mode)))
 
 
 (setq pycodechecker "pyflakes")
