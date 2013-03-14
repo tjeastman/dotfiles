@@ -26,8 +26,8 @@
 (setq mouse-yank-at-point t)
 (setq vc-follow-symlinks t)
 
-(setq indent-tabs-mode nil)
-(setq tab-width 4)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
 
 (delete-selection-mode t)
 (global-hl-line-mode 1)
