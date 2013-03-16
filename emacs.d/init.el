@@ -8,6 +8,7 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
+(add-to-list 'load-path "~/.emacs.d/contrib/magit")
 (add-to-list 'load-path "~/.emacs.d/contrib/expand-region")
 (add-to-list 'load-path "~/.emacs.d/contrib/ido-ubiquitous")
 (add-to-list 'load-path "~/.emacs.d/contrib/Pymacs")
@@ -161,3 +162,7 @@
       (list pycodechecker (list local-file))))
   (add-to-list 'flymake-allowed-file-name-masks
                '("\\.py\\'" flymake-pycodecheck-init)))
+
+
+(require 'magit)
+
