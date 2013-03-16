@@ -8,6 +8,7 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
+(add-to-list 'load-path "~/.emacs.d/contrib/ace-jump-mode")
 (add-to-list 'load-path "~/.emacs.d/contrib/magit")
 (add-to-list 'load-path "~/.emacs.d/contrib/expand-region")
 (add-to-list 'load-path "~/.emacs.d/contrib/ido-ubiquitous")
@@ -166,3 +167,5 @@
 
 (require 'magit)
 
+(require 'ace-jump-mode)
+(define-key global-map (kbd "C-c j") 'ace-jump-mode)

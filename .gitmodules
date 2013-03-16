@@ -22,3 +22,6 @@
 [submodule "emacs.d/contrib/magit"]
 	path = emacs.d/contrib/magit
 	url = git://github.com/magit/magit.git
+[submodule "emacs.d/contrib/ace-jump-mode"]
+	path = emacs.d/contrib/ace-jump-mode
+	url = git://github.com/winterTTr/ace-jump-mode.git
