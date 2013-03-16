@@ -25,3 +25,6 @@
 [submodule "emacs.d/contrib/ace-jump-mode"]
 	path = emacs.d/contrib/ace-jump-mode
 	url = git://github.com/winterTTr/ace-jump-mode.git
+[submodule "emacs.d/contrib/flymake-cursor"]
+	path = emacs.d/contrib/flymake-cursor
+	url = git://github.com/illusori/emacs-flymake-cursor.git
