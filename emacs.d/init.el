@@ -186,6 +186,7 @@
 (global-set-key (kbd "S-<f9>") 'backward-kill-word)
 (global-set-key (kbd "S-<f9>") 'backward-kill-word)
 (global-set-key (kbd "S-<f8>") 'er/expand-region)
+(global-set-key (kbd "S-<f7>") 'flyspell-goto-next-error)
 
 ; open zsh script files in sh-mode
 (add-to-list 'auto-mode-alist '("\\.zsh$" . sh-mode))
