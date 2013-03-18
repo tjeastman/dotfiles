@@ -153,7 +153,7 @@
             (flymake-mode)))
 
 
-(setq pycodechecker "pyflakes")
+(setq pycodechecker "~/local/bin/pycheck.sh")
 (when (load "flymake" t)
   (defun flymake-pycodecheck-init ()
     (let* ((temp-file (flymake-init-create-temp-buffer-copy
