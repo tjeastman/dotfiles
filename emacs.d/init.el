@@ -82,10 +82,6 @@
 (global-set-key "{" 'skeleton-pair-insert-maybe)
 (global-set-key "\"" 'skeleton-pair-insert-maybe)
 
-(add-hook 'python-mode-hook
-	  (lambda ()
-	    (define-key py-mode-map "'" 'skeleton-pair-insert-maybe)))
-
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 (setq backup-by-copying t
       delete-old-versions t
@@ -150,8 +146,8 @@
           (lambda ()
             (add-to-list 'ac-sources 'ac-source-ropemacs)
             (add-to-list 'ac-sources 'ac-source-yasnippet)
+            (define-key py-mode-map "'" 'skeleton-pair-insert-maybe)
             (flymake-mode)))
-
 
 (setq pycodechecker "~/local/bin/pycheck.sh")
 (when (load "flymake" t)
