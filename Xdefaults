@@ -1,0 +1,25 @@
+URxvt*background: #3F3F3F
+URxvt*foreground: #DCDCCC
+URxvt.color0  : #3F3F3F
+URxvt.color8  : #3F3F3F
+URxvt.color1  : #CC9393
+URxvt.color9  : #CC9393
+URxvt.color2  : #7F9F7F
+URxvt.color10 : #7F9F7F
+URxvt.color3  : #E3CEAB
+URxvt.color11 : #E3CEAB
+URxvt.color4  : #DFAF8F
+URxvt.color12 : #DFAF8F
+URxvt.color5  : #CC9393
+URxvt.color13 : #CC9393
+URxvt.color6  : #8CD0D3
+URxvt.color14 : #8CD0D3
+URxvt.color7  : #DCDCCC
+URxvt.color15 : #DCDCCC
+URxvt*font: xft:Monospace:size=10
+URxvt*boldFont: xft:Monospace:size=10
+URxvt.perl-ext-common : default,matcher
+URxvt.urlLauncher     : chromium
+URxvt.matcher.button  : 1
+URxvt*scrollBar: false
+URxvt*scrollBar_right: false
