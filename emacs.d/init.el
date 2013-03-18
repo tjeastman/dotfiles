@@ -172,3 +172,8 @@
 (define-key global-map (kbd "C-c j") 'ace-jump-mode)
 
 (require 'flymake-cursor)
+
+; get some commands to work through the terminal
+(global-set-key (kbd "S-<f9>") 'backward-kill-word)
+(global-set-key (kbd "S-<f9>") 'backward-kill-word)
+(global-set-key (kbd "S-<f8>") 'er/expand-region)
