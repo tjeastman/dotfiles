@@ -9,6 +9,8 @@ ln -s src/dotfiles/emacs.d .emacs.d
 ln -s src/dotfiles/zsh .zsh
 ln -s src/dotfiles/zshrc .zshrc
 ln -s src/dotfiles/gitconfig .gitconfig
+ln -s src/dotfiles/Xdefaults .Xdefaults
+ln -s src/dotfiles/aspell.en.pws .aspell.en.pws
 
 touch .gitconfig.user
 
