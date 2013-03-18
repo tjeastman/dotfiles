@@ -187,3 +187,7 @@
 (setq abbrev-file-name "~/.emacs.d/abbreviations")
 (quietly-read-abbrev-file abbrev-file-name)
 (setq save-abbrevs 'silently)
+
+(add-hook 'text-mode-hook 'flyspell-mode)
+(add-hook 'org-mode-hook 'flyspell-mode)
+(add-hook 'python-mode-hook 'flyspell-prog-mode)
