@@ -181,3 +181,9 @@
 ; open zsh script files in sh-mode
 (add-to-list 'auto-mode-alist '("\\.zsh$" . sh-mode))
 (add-to-list 'auto-mode-alist '("zshrc$" . sh-mode))
+
+; set up abbreviations
+(setq-default abbrev-mode t)
+(setq abbrev-file-name "~/.emacs.d/abbreviations")
+(quietly-read-abbrev-file abbrev-file-name)
+(setq save-abbrevs 'silently)
