@@ -16,8 +16,8 @@ URxvt.color6  : #8CD0D3
 URxvt.color14 : #8CD0D3
 URxvt.color7  : #DCDCCC
 URxvt.color15 : #DCDCCC
-URxvt*font: xft:Monospace:size=10
-URxvt*boldFont: xft:Monospace:size=10
+URxvt*font: xft:Inconsolata:size=11
+URxvt*boldFont: xft:Inconsolata:size=11
 URxvt.perl-ext-common : default,matcher
 URxvt.urlLauncher     : chromium
 URxvt.matcher.button  : 1
