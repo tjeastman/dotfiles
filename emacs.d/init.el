@@ -179,9 +179,9 @@
 (setq flymake-start-syntax-check-on-newline nil)
 
 ; get some commands to work through the terminal
-(global-set-key (kbd "S-<f9>") 'backward-kill-word)
-(global-set-key (kbd "S-<f8>") 'er/expand-region)
-(global-set-key (kbd "S-<f7>") 'flyspell-goto-next-error)
+(define-key key-translation-map (kbd "S-<f9>") (kbd "C-;"))
+(define-key key-translation-map (kbd "S-<f8>") (kbd "C-="))
+(define-key key-translation-map (kbd "S-<f7>") (kbd "C-,"))
 
 ; open zsh script files in sh-mode
 (add-to-list 'auto-mode-alist '("\\.zsh$" . sh-mode))
@@ -198,3 +198,7 @@
 (add-hook 'text-mode-hook 'flyspell-mode)
 (add-hook 'org-mode-hook 'flyspell-mode)
 (add-hook 'python-mode-hook 'flyspell-prog-mode)
+
+
+
+
