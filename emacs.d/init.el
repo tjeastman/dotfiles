@@ -185,6 +185,7 @@
 
 ; open zsh script files in sh-mode
 (add-to-list 'auto-mode-alist '("\\.zsh$" . sh-mode))
+(add-to-list 'auto-mode-alist '("\\.zsh-theme$" . sh-mode))
 (add-to-list 'auto-mode-alist '("zshrc$" . sh-mode))
 
 ; set up abbreviations
