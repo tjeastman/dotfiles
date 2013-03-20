@@ -180,7 +180,6 @@
 
 ; get some commands to work through the terminal
 (global-set-key (kbd "S-<f9>") 'backward-kill-word)
-(global-set-key (kbd "S-<f9>") 'backward-kill-word)
 (global-set-key (kbd "S-<f8>") 'er/expand-region)
 (global-set-key (kbd "S-<f7>") 'flyspell-goto-next-error)
 
