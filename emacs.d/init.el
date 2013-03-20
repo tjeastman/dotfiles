@@ -34,6 +34,7 @@
 (delete-selection-mode t)
 (global-hl-line-mode 1)
 (auto-compression-mode t)
+(xterm-mouse-mode t)
 
 (require 'ido)
 (setq ido-enable-flex-matching t)
