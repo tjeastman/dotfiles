@@ -199,7 +199,3 @@
 (add-hook 'text-mode-hook 'flyspell-mode)
 (add-hook 'org-mode-hook 'flyspell-mode)
 (add-hook 'python-mode-hook 'flyspell-prog-mode)
-
-
-
-
