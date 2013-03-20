@@ -19,8 +19,7 @@
 (add-to-list 'load-path "~/.emacs.d/themes/zenburn-emacs")
 
 (require 'color-theme-zenburn)
-(when (display-graphic-p)
-  (color-theme-zenburn))
+(color-theme-zenburn)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
