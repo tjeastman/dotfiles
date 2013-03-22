@@ -205,3 +205,5 @@
 (add-hook 'emacs-lisp-mode-hook 'flyspell-prog-mode)
 (add-hook 'c-mode-hook 'flyspell-prog-mode)
 (add-hook 'c++-mode-hook 'flyspell-prog-mode)
+
+(setq-default truncate-lines t)
