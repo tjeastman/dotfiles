@@ -8,16 +8,12 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
-(add-to-list 'load-path "~/.emacs.d/contrib/flymake-cursor")
-(add-to-list 'load-path "~/.emacs.d/contrib/ace-jump-mode")
-(add-to-list 'load-path "~/.emacs.d/contrib/magit")
-(add-to-list 'load-path "~/.emacs.d/contrib/expand-region")
-(add-to-list 'load-path "~/.emacs.d/contrib/ido-ubiquitous")
-(add-to-list 'load-path "~/.emacs.d/contrib/Pymacs")
-(add-to-list 'load-path "~/.emacs.d/contrib/smex")
-(add-to-list 'load-path "~/.emacs.d/contrib/yasnippet")
-(add-to-list 'load-path "~/.emacs.d/themes/zenburn-emacs")
+; add all contrib packages to load path
+(let ((emacs-contrib-dir (expand-file-name "contrib" user-emacs-directory)))
+  (dolist (module-dir (directory-files emacs-contrib-dir t "\\w+"))
+    (add-to-list 'load-path module-dir)))
 
+(add-to-list 'load-path "~/.emacs.d/themes/zenburn-emacs")
 (require 'color-theme-zenburn)
 (color-theme-zenburn)
 
