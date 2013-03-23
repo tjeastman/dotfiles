@@ -205,3 +205,8 @@
 (add-hook 'emacs-lisp-mode-hook 'flyspell-prog-mode)
 (add-hook 'c-mode-hook 'flyspell-prog-mode)
 (add-hook 'c++-mode-hook 'flyspell-prog-mode)
+
+; enable some commands
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+(put 'narrow-to-region 'disabled nil)
