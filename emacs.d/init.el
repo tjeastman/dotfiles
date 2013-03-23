@@ -202,6 +202,8 @@
 (add-hook 'c-mode-hook 'flyspell-prog-mode)
 (add-hook 'c++-mode-hook 'flyspell-prog-mode)
 
+(setq-default truncate-lines t)
+
 ; enable some commands
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
