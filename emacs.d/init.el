@@ -106,6 +106,9 @@
 
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
+; allow for additional prompt characters in the shell
+(setq shell-prompt-pattern "^[^#$%>⇒»\n]*[#$%>⇒»] *")
+
 (setq org-directory "~/Documents/org/")
 (setq org-mobile-directory "~/Dropbox/MobileOrg")
 (setq org-mobile-inbox-for-pull "~/Documents/org/mobile.org")
