@@ -202,7 +202,6 @@
 (setq ispell-personal-dictionary "~/.aspell.en.pws")
 
 (add-hook 'text-mode-hook 'flyspell-mode)
-(add-hook 'org-mode-hook 'flyspell-mode)
 (add-hook 'python-mode-hook 'flyspell-prog-mode)
 (add-hook 'emacs-lisp-mode-hook 'flyspell-prog-mode)
 (add-hook 'c-mode-hook 'flyspell-prog-mode)
