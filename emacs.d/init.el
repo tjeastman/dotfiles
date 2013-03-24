@@ -161,6 +161,8 @@
   (add-to-list 'flymake-allowed-file-name-masks
                '("\\.py\\'" flymake-pycodecheck-init)))
 
+(setq ipython-command "/usr/bin/ipython")
+(require 'ipython)
 
 (require 'magit)
 
