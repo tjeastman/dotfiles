@@ -8,6 +8,9 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
+(add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
+(load "misc")
+
 ; add all contrib packages to load path
 (let ((emacs-contrib-dir (expand-file-name "contrib" user-emacs-directory)))
   (dolist (module-dir (directory-files emacs-contrib-dir t "\\w+"))
@@ -118,13 +121,6 @@
 (mapc (lambda (face)
 	(set-face-attribute face nil :weight 'normal))
       (face-list))
-
-(defun toggle-fullscreen ()
-  (interactive)
-  (set-frame-parameter nil 'fullscreen
-                       (if (frame-parameter nil 'fullscreen)
-                           nil
-                         'fullboth)))
 
 (require 'yasnippet)
 (yas/global-mode 1)
