@@ -1,6 +1,10 @@
 ;;-*-coding: emacs-mule;-*-
 (define-abbrev-table 'Buffer-menu-mode-abbrev-table '())
 
+(define-abbrev-table 'apropos-mode-abbrev-table '())
+
+(define-abbrev-table 'calendar-mode-abbrev-table '())
+
 (define-abbrev-table 'change-log-mode-abbrev-table '())
 
 (define-abbrev-table 'comint-mode-abbrev-table '())
@@ -20,7 +24,9 @@
     ("adn" "and" nil 0)
     ("fiel" "file" nil 1)
     ("fro" "for" nil 0)
-    ("teh" "the" nil 1)
+    ("recieve" "receive" nil 1)
+    ("retreive" "retrieve" nil 0)
+    ("teh" "the" nil 2)
     ("termainl" "terminal" nil 1)
    ))
 
@@ -48,11 +54,37 @@
 
 (define-abbrev-table 'magit-wazzup-mode-abbrev-table '())
 
+(define-abbrev-table 'makefile-automake-mode-abbrev-table '())
+
+(define-abbrev-table 'makefile-bsdmake-mode-abbrev-table '())
+
+(define-abbrev-table 'makefile-gmake-mode-abbrev-table '())
+
+(define-abbrev-table 'makefile-imake-mode-abbrev-table '())
+
+(define-abbrev-table 'makefile-makepp-mode-abbrev-table '())
+
+(define-abbrev-table 'makefile-mode-abbrev-table '())
+
+(define-abbrev-table 'org-mode-abbrev-table '())
+
+(define-abbrev-table 'outline-mode-abbrev-table '())
+
+(define-abbrev-table 'perl-mode-abbrev-table '())
+
+(define-abbrev-table 'python-mode-abbrev-table '())
+
+(define-abbrev-table 'sh-mode-abbrev-table '())
+
 (define-abbrev-table 'shell-mode-abbrev-table '())
 
 (define-abbrev-table 'snippet-mode-abbrev-table '())
 
 (define-abbrev-table 'special-mode-abbrev-table '())
+
+(define-abbrev-table 'sql-mode-abbrev-table
+  '(
+   ))
 
 (define-abbrev-table 'text-mode-abbrev-table '())
 
