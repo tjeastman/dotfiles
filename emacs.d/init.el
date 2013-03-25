@@ -35,6 +35,18 @@
 (auto-compression-mode t)
 (xterm-mouse-mode t)
 
+; clean up the mode line
+(require 'diminish)
+(eval-after-load 'yasnippet '(diminish 'yas/minor-mode " Y"))
+(eval-after-load 'abbrev '(diminish 'abbrev-mode "Ab"))
+(eval-after-load 'flyspell '(diminish 'flyspell-mode "FSp"))
+(eval-after-load 'ropemacs '(diminish 'ropemacs-mode "Rp"))
+
+(add-hook 'emacs-lisp-mode-hook
+          (lambda () (setq mode-name "ELisp")))
+(add-hook 'python-mode-hook
+          (lambda () (setq mode-name "Py")))
+
 (require 'ido)
 (setq ido-enable-flex-matching t)
 (setq ido-create-new-buffer 'always)
