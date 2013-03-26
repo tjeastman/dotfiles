@@ -35,18 +35,6 @@
 (auto-compression-mode t)
 (xterm-mouse-mode t)
 
-; clean up the mode line
-(require 'diminish)
-(eval-after-load 'yasnippet '(diminish 'yas/minor-mode " Y"))
-(eval-after-load 'abbrev '(diminish 'abbrev-mode "Ab"))
-(eval-after-load 'flyspell '(diminish 'flyspell-mode "FSp"))
-(eval-after-load 'ropemacs '(diminish 'ropemacs-mode "Rp"))
-
-(add-hook 'emacs-lisp-mode-hook
-          (lambda () (setq mode-name "ELisp")))
-(add-hook 'python-mode-hook
-          (lambda () (setq mode-name "Py")))
-
 (require 'ido)
 (setq ido-enable-flex-matching t)
 (setq ido-create-new-buffer 'always)
@@ -168,6 +156,33 @@
       (list pycodechecker (list local-file))))
   (add-to-list 'flymake-allowed-file-name-masks
                '("\\.py\\'" flymake-pycodecheck-init)))
+
+; clean up the mode line
+(require 'diminish)
+(eval-after-load 'yasnippet '(diminish 'yas/minor-mode " Y"))
+(eval-after-load 'abbrev '(diminish 'abbrev-mode "Ab"))
+(eval-after-load 'flyspell '(diminish 'flyspell-mode "FSp"))
+(eval-after-load 'ropemacs '(diminish 'ropemacs-mode "Rp"))
+
+; diminish flymake mode line without losing the number of errors and warnings
+(defun flymake-report-short-status (e-w &optional status)
+  "Show shortened status in mode line."
+  (when e-w
+    (setq flymake-mode-line-e-w e-w))
+  (when status
+    (setq flymake-mode-line-status status))
+  (let* ((mode-line " FMk"))
+    (when (> (length flymake-mode-line-e-w) 0)
+      (setq mode-line (concat mode-line ":" flymake-mode-line-e-w)))
+    (setq mode-line (concat mode-line flymake-mode-line-status))
+    (setq flymake-mode-line mode-line)
+    (force-mode-line-update)))
+(defalias 'flymake-report-status 'flymake-report-short-status)
+
+(add-hook 'emacs-lisp-mode-hook
+          (lambda () (setq mode-name "ELisp")))
+(add-hook 'python-mode-hook
+          (lambda () (setq mode-name "Py")))
 
 (setq ipython-command "/usr/bin/ipython")
 (require 'ipython)
