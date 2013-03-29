@@ -218,6 +218,8 @@
 (add-to-list 'auto-mode-alist '("bashrc$" . sh-mode))
 (add-to-list 'auto-mode-alist '("bash_profile$" . sh-mode))
 (add-to-list 'auto-mode-alist '("bash_logout$" . sh-mode))
+; open octave source files in octave-mode
+(add-to-list 'auto-mode-alist '("\\.m$" . octave-mode))
 
 ; set up abbreviations
 (setq-default abbrev-mode t)
