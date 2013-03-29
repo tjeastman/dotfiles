@@ -130,8 +130,6 @@
 (require 'yasnippet)
 (yas/global-mode 1)
 
-(setenv "PYTHONPATH" (expand-file-name "~/local/lib/python/"))
-
 (require 'pymacs)
 (pymacs-load "ropemacs" "rope-")
 (setq ropemacs-guess-project t)
