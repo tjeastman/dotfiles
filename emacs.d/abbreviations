@@ -23,6 +23,7 @@
   '(
     ("adn" "and" nil 0)
     ("fiel" "file" nil 1)
+    ("flasg" "flags" nil 1)
     ("fro" "for" nil 0)
     ("recieve" "receive" nil 1)
     ("retreive" "retrieve" nil 0)
@@ -82,9 +83,7 @@
 
 (define-abbrev-table 'special-mode-abbrev-table '())
 
-(define-abbrev-table 'sql-mode-abbrev-table
-  '(
-   ))
+(define-abbrev-table 'sql-mode-abbrev-table '())
 
 (define-abbrev-table 'text-mode-abbrev-table '())
 
