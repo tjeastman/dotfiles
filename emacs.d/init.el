@@ -162,7 +162,7 @@
 
 ; clean up the mode line
 (require 'diminish)
-(eval-after-load 'yasnippet '(diminish 'yas/minor-mode " Y"))
+(eval-after-load 'yasnippet '(diminish 'yas-minor-mode " Y"))
 (eval-after-load 'abbrev '(diminish 'abbrev-mode "Ab"))
 (eval-after-load 'flyspell '(diminish 'flyspell-mode "FSp"))
 (eval-after-load 'ropemacs '(diminish 'ropemacs-mode "Rp"))
