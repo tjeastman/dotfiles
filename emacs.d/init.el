@@ -188,7 +188,7 @@
           (lambda () (setq mode-name "Py")))
 
 (setq ipython-command "/usr/bin/ipython")
-(require 'ipython)
+(require 'ipython nil t)
 
 (require 'magit)
 
