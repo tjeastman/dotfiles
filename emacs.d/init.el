@@ -186,6 +186,8 @@
           (lambda () (setq mode-name "ELisp")))
 (add-hook 'python-mode-hook
           (lambda () (setq mode-name "Py")))
+(add-hook 'text-mode-hook
+          (lambda () (setq mode-name "Txt")))
 
 (setq ipython-command "/usr/bin/ipython")
 (require 'ipython nil t)
