@@ -222,6 +222,8 @@
 (add-to-list 'auto-mode-alist '("bash_logout$" . sh-mode))
 ; open octave source files in octave-mode
 (add-to-list 'auto-mode-alist '("\\.m$" . octave-mode))
+; open README files in text mode
+(add-to-list 'auto-mode-alist '("README$" . text-mode))
 
 ; set up abbreviations
 (setq-default abbrev-mode t)
