@@ -248,4 +248,4 @@
 
 (load "testing" t)
 
-(require 'personal)
+(require 'personal nil t)
