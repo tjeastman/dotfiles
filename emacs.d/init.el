@@ -247,3 +247,5 @@
 (put 'narrow-to-region 'disabled nil)
 
 (load "testing" t)
+
+(require 'personal)
