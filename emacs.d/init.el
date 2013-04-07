@@ -246,6 +246,4 @@
 (put 'upcase-region 'disabled nil)
 (put 'narrow-to-region 'disabled nil)
 
-(load "testing" t)
-
 (require 'personal nil t)
