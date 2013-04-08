@@ -126,6 +126,7 @@
 (key-chord-mode 1)
 (key-chord-define-global ";b" 'ido-switch-buffer)
 (key-chord-define-global ";f" 'ido-find-file)
+(key-chord-define-global ";r" 'ido-find-recent-file)
 (key-chord-define-global ";g" 'magit-status)
 (key-chord-define-global ";j" 'ace-jump-mode)
 (key-chord-define-global ";s" 'start-new-shell-always)

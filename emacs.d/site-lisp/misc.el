@@ -45,3 +45,10 @@
                        (if (frame-parameter nil 'fullscreen)
                            nil
                          'fullboth)))
+
+(defun ido-find-recent-file ()
+  "Find a recent file using ido."
+  (interactive)
+  (let ((file (ido-completing-read "Find recent file: " recentf-list nil t)))
+    (when file
+      (find-file file))))
