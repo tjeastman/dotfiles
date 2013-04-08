@@ -1,3 +1,5 @@
+(require 'sql)
+
 (defvar known-mysql-database-alist
   '((test :host "localhost" :user "username" :password "password" :port 3306))
   "A list of known MySQL databases and their corresponding connection parameters.")
