@@ -18,7 +18,6 @@
 (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
 (load "misc")
 
-(require 'cl)
 (defun add-top-level-subdirectories-to-load-path (&rest top-level-dirs)
   "Augment load-path with the top-level subdirectories of a list of directories."
   (dolist (top-level-dir top-level-dirs)
