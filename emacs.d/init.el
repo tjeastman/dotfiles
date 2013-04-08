@@ -78,6 +78,12 @@
 (setq-default save-place t)
 (setq save-place-file (expand-file-name "places" user-emacs-state-directory))
 
+(require 'recentf)
+(setq recentf-save-file (expand-file-name "recentf" user-emacs-state-directory)
+      recentf-max-saved-items 1000
+      recentf-max-menu-items 25)
+(recentf-mode +1)
+
 (require 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
 
