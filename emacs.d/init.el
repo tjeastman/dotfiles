@@ -12,6 +12,9 @@
 (unless (boundp 'user-emacs-directory)
   (setq user-emacs-directory "~/.emacs.d/"))
 
+; organize emacs feature state files
+(setq user-emacs-state-directory (expand-file-name "state" user-emacs-directory))
+
 (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
 (load "misc")
 
@@ -54,7 +57,7 @@
 (setq ido-use-filename-at-point 'guess)
 (setq ido-ignore-extensions t)
 (setq ido-auto-merge-work-directories-length -1)
-(setq ido-save-directory-list-file (expand-file-name "ido.last" user-emacs-directory))
+(setq ido-save-directory-list-file (expand-file-name "ido.last" user-emacs-state-directory))
 (ido-everywhere t)
 (ido-mode 1)
 
@@ -62,7 +65,7 @@
 (ido-ubiquitous-mode 1)
 
 (require 'smex)
-(setq smex-save-file (expand-file-name "smex-items" user-emacs-directory))
+(setq smex-save-file (expand-file-name "smex-items" user-emacs-state-directory))
 (smex-initialize)
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "C-x C-m") 'smex)
@@ -73,7 +76,7 @@
 ; save point position between sessions
 (require 'saveplace)
 (setq-default save-place t)
-(setq save-place-file (expand-file-name "places" user-emacs-directory))
+(setq save-place-file (expand-file-name "places" user-emacs-state-directory))
 
 (require 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
