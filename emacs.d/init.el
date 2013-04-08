@@ -143,11 +143,6 @@
 ; allow for additional prompt characters in the shell
 (setq shell-prompt-pattern "^[^#$%>⇒»\n]*[#$%>⇒»] *")
 
-(setq org-directory "~/Documents/org/")
-(setq org-mobile-directory "~/Dropbox/MobileOrg")
-(setq org-mobile-inbox-for-pull "~/Documents/org/mobile.org")
-(setq org-agenda-files '("~/Documents/org/agenda/"))
-
 ; eliminate bold text
 (mapc (lambda (face)
 	(set-face-attribute face nil :weight 'normal))
