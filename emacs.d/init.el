@@ -170,9 +170,11 @@
 (add-hook 'python-mode-hook
           (lambda ()
             (add-to-list 'ac-sources 'ac-source-ropemacs)
-            (add-to-list 'ac-sources 'ac-source-yasnippet)
+            ;fix:yasnippet completion source is broken
+            ;(add-to-list 'ac-sources 'ac-source-yasnippet)
             (define-key py-mode-map "'" 'skeleton-pair-insert-maybe)
-            (flymake-mode)))
+            (flymake-mode)
+))
 
 (setq pycodechecker "~/local/bin/pycheck.sh")
 (when (load "flymake" t)
