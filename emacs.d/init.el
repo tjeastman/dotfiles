@@ -8,6 +8,10 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
+; handle older versions of emacs
+(unless (boundp 'user-emacs-directory)
+  (setq user-emacs-directory "~/.emacs.d/"))
+
 (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
 (load "misc")
 
