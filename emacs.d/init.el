@@ -18,15 +18,16 @@
 (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
 (load "misc")
 
-; add all contrib packages to load path
-(let ((emacs-contrib-dir (expand-file-name "contrib" user-emacs-directory)))
-  (dolist (module-dir (directory-files emacs-contrib-dir t "\\w+"))
-    (add-to-list 'load-path module-dir)))
+(require 'cl)
+(defun add-top-level-subdirectories-to-load-path (&rest top-level-dirs)
+  "Augment load-path with the top-level subdirectories of a list of directories."
+  (dolist (top-level-dir top-level-dirs)
+    (dolist (top-level-subdir (directory-files top-level-dir t "\\w+"))
+      (add-to-list 'load-path top-level-subdir))))
 
-; add all theme packages to load path
-(let ((emacs-themes-dir (expand-file-name "themes" user-emacs-directory)))
-  (dolist (theme-dir (directory-files emacs-themes-dir t "\\w+"))
-    (add-to-list 'load-path theme-dir)))
+(add-top-level-subdirectories-to-load-path
+ (expand-file-name "contrib" user-emacs-directory)
+ (expand-file-name "themes" user-emacs-directory))
 
 (require 'color-theme-zenburn)
 (color-theme-zenburn)
