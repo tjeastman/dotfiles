@@ -227,10 +227,6 @@
 
 (require 'flymake-cursor)
 
-(custom-set-faces
- '(flymake-errline ((((class color)) (:background "red" :foreground "black"))))
- '(flymake-warnline ((((class color)) (:background "red" :foreground "black")))))
-
 (global-set-key (kbd "C-c n") 'flymake-goto-next-error)
 (global-set-key (kbd "C-c p") 'flymake-goto-prev-error)
 (setq flymake-no-changes-timeout 3)
