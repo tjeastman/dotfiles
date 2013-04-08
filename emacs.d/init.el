@@ -16,7 +16,11 @@
   (dolist (module-dir (directory-files emacs-contrib-dir t "\\w+"))
     (add-to-list 'load-path module-dir)))
 
-(add-to-list 'load-path "~/.emacs.d/themes/zenburn-emacs")
+; add all theme packages to load path
+(let ((emacs-themes-dir (expand-file-name "themes" user-emacs-directory)))
+  (dolist (theme-dir (directory-files emacs-themes-dir t "\\w+"))
+    (add-to-list 'load-path theme-dir)))
+
 (require 'color-theme-zenburn)
 (color-theme-zenburn)
 
@@ -46,7 +50,7 @@
 (setq ido-use-filename-at-point 'guess)
 (setq ido-ignore-extensions t)
 (setq ido-auto-merge-work-directories-length -1)
-(setq ido-save-directory-list-file "~/.emacs.d/ido.last")
+(setq ido-save-directory-list-file (expand-file-name "ido.last" user-emacs-directory))
 (ido-everywhere t)
 (ido-mode 1)
 
@@ -54,7 +58,7 @@
 (ido-ubiquitous-mode 1)
 
 (require 'smex)
-(setq smex-save-file "~/.emacs.d/smex-items")
+(setq smex-save-file (expand-file-name "smex-items" user-emacs-directory))
 (smex-initialize)
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "C-x C-m") 'smex)
@@ -65,7 +69,7 @@
 ; save point position between sessions
 (require 'saveplace)
 (setq-default save-place t)
-(setq save-place-file "~/.emacs.d/places")
+(setq save-place-file (expand-file-name "places" user-emacs-directory))
 
 (require 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
@@ -86,7 +90,7 @@
 (global-set-key "{" 'skeleton-pair-insert-maybe)
 (global-set-key "\"" 'skeleton-pair-insert-maybe)
 
-(setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
+(setq backup-directory-alist `(("." . ,(expand-file-name "backups" user-emacs-directory))))
 (setq backup-by-copying t
       delete-old-versions t
       kept-new-versions 6
@@ -137,7 +141,7 @@
 (setq ropemacs-autoimport-modules '("os" "sys"))
 
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(add-to-list 'ac-dictionary-directories (expand-file-name "ac-dict" user-emacs-directory))
 (ac-config-default)
 (ac-flyspell-workaround)
 
@@ -227,7 +231,7 @@
 
 ; set up abbreviations
 (setq-default abbrev-mode t)
-(setq abbrev-file-name "~/.emacs.d/abbreviations")
+(setq abbrev-file-name (expand-file-name "abbreviations" user-emacs-directory))
 (quietly-read-abbrev-file abbrev-file-name)
 (setq save-abbrevs 'silently)
 
