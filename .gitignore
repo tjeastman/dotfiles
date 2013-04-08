@@ -1,8 +1,8 @@
 /emacs.d/backups/
 /emacs.d/auto-save-list/
-/emacs.d/places
-/emacs.d/smex-items
-/emacs.d/ido.last
+/emacs.d/state/places
+/emacs.d/state/smex-items
+/emacs.d/state/ido.last
 /emacs.d/ac-comphist.dat
 /emacs.d/site-lisp/personal.el
 /zsh/history
