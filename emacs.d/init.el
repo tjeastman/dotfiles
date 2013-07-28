@@ -44,7 +44,6 @@
 (delete-selection-mode t)
 (global-hl-line-mode 1)
 (auto-compression-mode t)
-(xterm-mouse-mode t)
 
 ; nicer scrolling
 (setq scroll-margin 0
