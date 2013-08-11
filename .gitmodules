@@ -34,3 +34,6 @@
 [submodule "emacs.d/contrib/emacs-websocket"]
 	path = emacs.d/contrib/emacs-websocket
 	url = https://github.com/ahyatt/emacs-websocket.git
+[submodule "emacs.d/contrib/emacs-ipython-notebook"]
+	path = emacs.d/contrib/emacs-ipython-notebook
+	url = https://github.com/tkf/emacs-ipython-notebook.git
