@@ -31,3 +31,6 @@
 [submodule "emacs.d/contrib/emacs-request"]
 	path = emacs.d/contrib/emacs-request
 	url = https://github.com/tkf/emacs-request.git
+[submodule "emacs.d/contrib/emacs-websocket"]
+	path = emacs.d/contrib/emacs-websocket
+	url = https://github.com/ahyatt/emacs-websocket.git
