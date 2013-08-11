@@ -28,3 +28,6 @@
 [submodule "emacs.d/contrib/flymake-cursor"]
 	path = emacs.d/contrib/flymake-cursor
 	url = git://github.com/illusori/emacs-flymake-cursor.git
+[submodule "emacs.d/contrib/emacs-request"]
+	path = emacs.d/contrib/emacs-request
+	url = https://github.com/tkf/emacs-request.git
