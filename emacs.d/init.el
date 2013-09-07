@@ -133,12 +133,6 @@
 (setq comint-process-echoes t
       comint-prompt-read-only t)
 
-(setq ansi-color-names-vector
-      ["#3F3F3F" "#CC9393" "#7F9F7F" "#E3CEAB"
-       "#DFAF8F" "#CC9393" "#8CD0D3" "#DCDCCC"])
-
-(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
-
 ; allow for additional prompt characters in the shell
 (setq shell-prompt-pattern "^[^#$%>⇒»\n]*[#$%>⇒»] *")
 
