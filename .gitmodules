@@ -37,3 +37,6 @@
 [submodule "emacs.d/contrib/emacs-ipython-notebook"]
 	path = emacs.d/contrib/emacs-ipython-notebook
 	url = https://github.com/tkf/emacs-ipython-notebook.git
+[submodule "emacs.d/contrib/yaml-mode"]
+	path = emacs.d/contrib/yaml-mode
+	url = https://github.com/yoshiki/yaml-mode.git

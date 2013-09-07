@@ -267,3 +267,5 @@
 (put 'narrow-to-region 'disabled nil)
 
 (require 'personal nil t)
+
+(require 'yaml-mode)
