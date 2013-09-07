@@ -40,3 +40,6 @@
 [submodule "emacs.d/contrib/yaml-mode"]
 	path = emacs.d/contrib/yaml-mode
 	url = https://github.com/yoshiki/yaml-mode.git
+[submodule "emacs.d/contrib/git-modes"]
+	path = emacs.d/contrib/git-modes
+	url = https://github.com/magit/git-modes.git
