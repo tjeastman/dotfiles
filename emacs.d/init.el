@@ -1,5 +1,6 @@
 (setq inhibit-startup-message t)
 (setq initial-scratch-message nil)
+(setq ring-bell-function 'ignore)
 
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
