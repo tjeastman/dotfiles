@@ -1,9 +1,6 @@
 [submodule "emacs.d/contrib/smex"]
 	path = emacs.d/contrib/smex
 	url = git://github.com/nonsequitur/smex.git
-[submodule "emacs.d/contrib/expand-region"]
-	path = emacs.d/contrib/expand-region
-	url = git://github.com/magnars/expand-region.el.git
 [submodule "emacs.d/contrib/ido-ubiquitous"]
 	path = emacs.d/contrib/ido-ubiquitous
 	url = git://github.com/DarwinAwardWinner/ido-ubiquitous.git
@@ -16,15 +13,6 @@
 [submodule "emacs.d/contrib/Pymacs"]
 	path = emacs.d/contrib/Pymacs
 	url = git://github.com/pinard/Pymacs.git
-[submodule "emacs.d/contrib/yasnippet"]
-	path = emacs.d/contrib/yasnippet
-	url = git://github.com/capitaomorte/yasnippet.git
-[submodule "emacs.d/contrib/magit"]
-	path = emacs.d/contrib/magit
-	url = git://github.com/magit/magit.git
-[submodule "emacs.d/contrib/ace-jump-mode"]
-	path = emacs.d/contrib/ace-jump-mode
-	url = git://github.com/winterTTr/ace-jump-mode.git
 [submodule "emacs.d/contrib/flymake-cursor"]
 	path = emacs.d/contrib/flymake-cursor
 	url = git://github.com/illusori/emacs-flymake-cursor.git
@@ -37,6 +25,3 @@
 [submodule "emacs.d/contrib/emacs-ipython-notebook"]
 	path = emacs.d/contrib/emacs-ipython-notebook
 	url = https://github.com/tkf/emacs-ipython-notebook.git
-[submodule "emacs.d/contrib/git-modes"]
-	path = emacs.d/contrib/git-modes
-	url = https://github.com/magit/git-modes.git
