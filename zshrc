@@ -41,6 +41,7 @@ HISTFILE=$HOME/.zsh/history
 
 export PYTHONPATH="$HOME/local/lib/python/"
 
+source $HOME/.zsh/personal.sh
 source $HOME/.zsh/custom.zsh-theme
 
 # initialize autojump if it is installed
