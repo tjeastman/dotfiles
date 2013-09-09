@@ -13,6 +13,14 @@
 (unless (boundp 'user-emacs-directory)
   (setq user-emacs-directory "~/.emacs.d/"))
 
+; configure emacs packages
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (setq package-user-dir (expand-file-name "packages" user-emacs-directory))
+  (package-initialize)
+  (add-to-list 'package-archives
+               '("melpa" . "http://melpa.milkbox.net/packages/") t))
+
 ; organize emacs feature state files
 (setq user-emacs-state-directory (expand-file-name "state" user-emacs-directory))
 
