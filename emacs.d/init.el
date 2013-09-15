@@ -19,6 +19,8 @@
   (setq package-user-dir (expand-file-name "packages" user-emacs-directory))
   (package-initialize)
   (add-to-list 'package-archives
+               '("marmalade" . "http://marmalade-repo.org/packages/") t)
+  (add-to-list 'package-archives
                '("melpa" . "http://melpa.milkbox.net/packages/") t))
 
 ; organize emacs feature state files
