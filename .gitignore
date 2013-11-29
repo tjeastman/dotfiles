@@ -1,10 +1,6 @@
 /emacs.d/backups/
 /emacs.d/auto-save-list/
-/emacs.d/state/places
-/emacs.d/state/smex-items
-/emacs.d/state/ido.last
-/emacs.d/state/recentf
-/emacs.d/state/request
+/emacs.d/state
 /emacs.d/ac-comphist.dat
 /emacs.d/contrib/key-chord
 /emacs.d/site-lisp/personal.el
