@@ -32,7 +32,3 @@ python setup.py install --home=$HOME/local/
 
 infocmp rxvt-unicode-256color > rxvt-unicode-256color.ti
 tic rxvt-unicode-256color.ti
-
-
-mkdir emacs.d/contrib/key-chord
-curl http://www.emacswiki.org/emacs/download/key-chord.el > emacs.d/contrib/key-chord/key-chord.el
