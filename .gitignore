@@ -6,5 +6,6 @@
 /emacs.d/site-lisp/personal.el
 /emacs.d/packages/
 /emacs.d/url/
+/emacs.d/.cask/
 /zsh/history
 /zsh/personal.sh
