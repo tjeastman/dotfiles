@@ -94,6 +94,10 @@
       recentf-max-menu-items 25)
 (recentf-mode +1)
 
+(require 'request)
+(setq request-storage-directory
+      (expand-file-name "request" user-emacs-state-directory))
+
 (require 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
 
