@@ -29,10 +29,7 @@
 (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
 (load "misc")
 
-(add-to-list 'load-path (expand-file-name "themes/zenburn-emacs" user-emacs-directory))
-
-(require 'color-theme-zenburn)
-(color-theme-zenburn)
+(load-theme 'zenburn t)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
