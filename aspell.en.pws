@@ -1,10 +1,14 @@
-personal_ws-1.1 en 13 
+personal_ws-1.1 en 17 
 bootloader
+subdirectories
 dataset
+refactor
 zsh
 emacs
 flymake
+contrib
 autocompletion
+subdirectory
 ISP
 Arduino
 Uno
