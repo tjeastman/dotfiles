@@ -1,4 +1,4 @@
-personal_ws-1.1 en 17 
+personal_ws-1.1 en 20 
 bootloader
 subdirectories
 dataset
@@ -10,8 +10,11 @@ contrib
 autocompletion
 subdirectory
 ISP
+reimplement
 Arduino
 Uno
+genotype
+genotypes
 yasnippet
 readme
 analyses
