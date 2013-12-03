@@ -27,6 +27,7 @@
 (depends-on "pymacs")
 (depends-on "request")
 (depends-on "s")
+(depends-on "smartparens")
 (depends-on "smex")
 (depends-on "web-mode")
 (depends-on "websocket")
