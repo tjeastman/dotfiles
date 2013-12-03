@@ -211,9 +211,6 @@
 (add-hook 'shell-mode-hook
           (lambda () (setq mode-name "Sh")))
 
-(setq ipython-command "/usr/bin/ipython")
-(require 'ipython nil t)
-
 (require 'magit)
 
 (require 'ace-jump-mode)
