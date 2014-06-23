@@ -9,10 +9,6 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
-; handle older versions of emacs
-(unless (boundp 'user-emacs-directory)
-  (setq user-emacs-directory "~/.emacs.d/"))
-
 ; load prelude...
 (load (expand-file-name "contrib/prelude/init.el" user-emacs-directory))
 
