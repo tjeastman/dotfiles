@@ -83,19 +83,6 @@
 ;; (global-hl-line-mode 1)
 ;; (auto-compression-mode t)
 
-;; (require 'ido)
-;; (setq ido-enable-flex-matching t)
-;; (setq ido-create-new-buffer 'always)
-;; (setq ido-use-filename-at-point 'guess)
-;; (setq ido-ignore-extensions t)
-;; (setq ido-auto-merge-work-directories-length -1)
-;; (setq ido-save-directory-list-file (expand-file-name "ido.last" user-emacs-state-directory))
-;; (ido-everywhere t)
-;; (ido-mode 1)
-
-;; (require 'ido-ubiquitous)
-;; (ido-ubiquitous-mode 1)
-
 ;; ; save point position between sessions
 ;; (require 'saveplace)
 ;; (setq-default save-place t)
