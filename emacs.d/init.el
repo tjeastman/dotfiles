@@ -299,7 +299,7 @@
 ;; (quietly-read-abbrev-file abbrev-file-name)
 ;; (setq save-abbrevs 'silently)
 
-;; (setq ispell-personal-dictionary "~/.aspell.en.pws")
+(setq ispell-personal-dictionary "~/.aspell.en.pws")
 
 ;; (add-hook 'text-mode-hook 'flyspell-mode)
 ;; (add-hook 'python-mode-hook 'flyspell-prog-mode)
