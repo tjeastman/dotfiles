@@ -241,11 +241,11 @@
 ;; ; open README files in text mode
 ;; (add-to-list 'auto-mode-alist '("README$" . text-mode))
 
-;; ; set up abbreviations
-;; (setq-default abbrev-mode t)
-;; (setq abbrev-file-name (expand-file-name "abbreviations" user-emacs-directory))
-;; (quietly-read-abbrev-file abbrev-file-name)
-;; (setq save-abbrevs 'silently)
+; set up abbreviations
+(setq-default abbrev-mode t)
+(setq abbrev-file-name (expand-file-name "abbreviations" user-emacs-directory))
+(quietly-read-abbrev-file abbrev-file-name)
+(setq save-abbrevs 'silently)
 
 (setq ispell-personal-dictionary "~/.aspell.en.pws")
 
