@@ -23,7 +23,15 @@
    ido-ubiquitous
    websocket
    request
-   ein))
+   ein
+   ace-jump-mode
+   expand-region
+   git-commit-mode
+   git-rebase-mode
+   jinja2-mode
+   web-mode
+   yasnippet
+   clojure-mode))
 
 ;;; Uncomment the modules you'd like to use and restart Prelude afterwards
 
