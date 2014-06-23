@@ -54,6 +54,8 @@
 ;; (require 'prelude-web) ;; Emacs mode for web templates
 ;; (require 'prelude-xml)
 
+(setq prelude-guru nil)
+
 ;; ; configure emacs packages
 ;; (when (>= emacs-major-version 24)
 ;;   (require 'package)
