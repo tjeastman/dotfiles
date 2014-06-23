@@ -67,8 +67,6 @@
 ;; (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
 ;; (load "misc")
 
-;; (defalias 'yes-or-no-p 'y-or-n-p)
-
 ;; (setq confirm-nonexistent-file-or-buffer nil)
 ;; (setq require-final-newline nil)
 ;; (setq mouse-yank-at-point t)
