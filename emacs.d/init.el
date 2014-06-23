@@ -9,8 +9,15 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
+; emacs feature state files
+(setq user-emacs-state-directory
+      (expand-file-name "state" user-emacs-directory))
+; emacs contrib packages
+(setq user-emacs-contrib-directory
+      (expand-file-name "contrib" user-emacs-directory))
+
 ; load prelude...
-(load (expand-file-name "contrib/prelude/init.el" user-emacs-directory))
+(load (expand-file-name "prelude/init.el" user-emacs-contrib-directory))
 
 (prelude-require-packages
  '(yaml-mode
@@ -60,9 +67,6 @@
 ;; (require 'prelude-xml)
 
 (setq prelude-guru nil)
-
-;; ; organize emacs feature state files
-;; (setq user-emacs-state-directory (expand-file-name "state" user-emacs-directory))
 
 ;; (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
 ;; (load "misc")
