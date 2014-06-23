@@ -159,12 +159,12 @@
 ;; (smartparens-global-mode t)
 ;; (show-smartparens-global-mode +1)
 
-;; (setq backup-directory-alist `(("." . ,(expand-file-name "backups" user-emacs-directory))))
-;; (setq backup-by-copying t
-;;       delete-old-versions t
-;;       kept-new-versions 6
-;;       kept-old-versions 2
-;;       version-control t)
+(setq backup-directory-alist `(("." . ,(expand-file-name "backups" user-emacs-directory))))
+(setq backup-by-copying t
+      delete-old-versions t
+      kept-new-versions 6
+      kept-old-versions 2
+      version-control t)
 
 ;; ; use regex searches by default
 ;; (global-set-key (kbd "C-s") 'isearch-forward-regexp)
