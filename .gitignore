@@ -7,5 +7,6 @@
 /emacs.d/packages/
 /emacs.d/url/
 /emacs.d/.cask/
+/emacs.d/projectile-bookmarks.eld
 /zsh/history
 /zsh/personal.sh
