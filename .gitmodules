@@ -1,3 +1,6 @@
 [submodule "zsh/contrib/oh-my-zsh"]
 	path = zsh/contrib/oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "emacs.d/contrib/prelude"]
+	path = emacs.d/contrib/prelude
+	url = https://github.com/bbatsov/prelude.git
