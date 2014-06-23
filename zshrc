@@ -32,7 +32,7 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git debian screen python)
+plugins=(git debian screen python autojump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -43,8 +43,3 @@ export PYTHONPATH="$HOME/local/lib/python/"
 
 source $HOME/.zsh/personal.sh
 source $HOME/.zsh/custom.zsh-theme
-
-# initialize autojump if it is installed
-if [ -f /usr/share/autojump/autojump.sh ]; then
-    source /usr/share/autojump/autojump.sh
-fi
