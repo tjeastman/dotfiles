@@ -80,8 +80,6 @@
 ;; (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
 ;; (load "misc")
 
-;; (load-theme 'zenburn t)
-
 ;; (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; (setq confirm-nonexistent-file-or-buffer nil)
