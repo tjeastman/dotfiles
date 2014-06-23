@@ -247,9 +247,6 @@
 
 ;; (require 'magit)
 
-;; (require 'ace-jump-mode)
-;; (define-key global-map (kbd "C-c j") 'ace-jump-mode)
-
 ;; (require 'flymake-cursor)
 
 ;; (global-set-key (kbd "C-c n") 'flymake-goto-next-error)
