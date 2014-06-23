@@ -83,11 +83,6 @@
 ;; (global-hl-line-mode 1)
 ;; (auto-compression-mode t)
 
-;; ; nicer scrolling
-;; (setq scroll-margin 0
-;;       scroll-conservatively 100000
-;;       scroll-preserve-screen-position t)
-
 ;; (require 'ido)
 ;; (setq ido-enable-flex-matching t)
 ;; (setq ido-create-new-buffer 'always)
