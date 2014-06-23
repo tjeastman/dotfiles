@@ -31,7 +31,10 @@
    jinja2-mode
    web-mode
    yasnippet
-   clojure-mode))
+   clojure-mode
+   jira
+   jedi
+   p4))
 
 ;;; Uncomment the modules you'd like to use and restart Prelude afterwards
 
