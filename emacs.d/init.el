@@ -83,11 +83,6 @@
 ;; (global-hl-line-mode 1)
 ;; (auto-compression-mode t)
 
-;; ; save point position between sessions
-;; (require 'saveplace)
-;; (setq-default save-place t)
-;; (setq save-place-file (expand-file-name "places" user-emacs-state-directory))
-
 ;; (require 'recentf)
 ;; (setq recentf-save-file (expand-file-name "recentf" user-emacs-state-directory)
 ;;       recentf-max-saved-items 1000
