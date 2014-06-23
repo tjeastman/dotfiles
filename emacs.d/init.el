@@ -211,8 +211,6 @@
 ;; (add-hook 'shell-mode-hook
 ;;           (lambda () (setq mode-name "Sh")))
 
-;; (require 'magit)
-
 ;; (require 'flymake-cursor)
 
 ;; (global-set-key (kbd "C-c n") 'flymake-goto-next-error)
