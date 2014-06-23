@@ -83,12 +83,6 @@
 ;; (global-hl-line-mode 1)
 ;; (auto-compression-mode t)
 
-;; (require 'recentf)
-;; (setq recentf-save-file (expand-file-name "recentf" user-emacs-state-directory)
-;;       recentf-max-saved-items 1000
-;;       recentf-max-menu-items 25)
-;; (recentf-mode +1)
-
 ;; (require 'request)
 ;; (setq request-storage-directory
 ;;       (expand-file-name "request" user-emacs-state-directory))
