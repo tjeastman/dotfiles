@@ -134,8 +134,8 @@
 ;; (key-chord-define-global ";j" 'ace-jump-mode)
 ;; (key-chord-define-global ";s" 'start-new-shell-always)
 
-;; (setq comint-process-echoes t
-;;       comint-prompt-read-only t)
+(setq comint-process-echoes t
+      comint-prompt-read-only t)
 
 ;; ; allow for additional prompt characters in the shell
 ;; (setq shell-prompt-pattern "^[^#$%>⇒»\n]*[#$%>⇒»] *")
