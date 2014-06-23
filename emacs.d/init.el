@@ -9,9 +9,6 @@
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode -1))
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
-; emacs feature state files
-(setq user-emacs-state-directory
-      (expand-file-name "state" user-emacs-directory))
 ; emacs contrib packages
 (setq user-emacs-contrib-directory
       (expand-file-name "contrib" user-emacs-directory))
