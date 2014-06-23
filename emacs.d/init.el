@@ -87,9 +87,6 @@
 ;; (setq request-storage-directory
 ;;       (expand-file-name "request" user-emacs-state-directory))
 
-;; (require 'expand-region)
-;; (global-set-key (kbd "C-=") 'er/expand-region)
-
 ;; ;; (require 'paren)
 ;; ;; (when (display-graphic-p)
 ;; ;;   (set-face-background 'show-paren-match-face "#333333")
@@ -123,7 +120,6 @@
 ;; (global-set-key (kbd "C-M-s") 'isearch-forward)
 ;; (global-set-key (kbd "C-M-r") 'isearch-backward)
 
-;; (global-set-key (kbd "C-x C-b") 'ibuffer)
 ;; (global-set-key (kbd "C-;") 'backward-kill-word)
 
 ;; (global-set-key (kbd "C-c i") 'imenu)
