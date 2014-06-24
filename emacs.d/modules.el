@@ -6,7 +6,7 @@
 ;; (require 'prelude-coffee)
 ;; (require 'prelude-common-lisp)
 ;; (require 'prelude-css)
-;; (require 'prelude-emacs-lisp)
+(require 'prelude-emacs-lisp)
 ;; (require 'prelude-erc) ;; Emacs IRC client
 ;; (require 'prelude-erlang)
 ;; (require 'prelude-haskell)
@@ -15,9 +15,9 @@
 ;; (require 'prelude-latex)
 ;; (require 'prelude-lisp)
 ;; (require 'prelude-mediawiki)
-;; (require 'prelude-org) ;; Org-mode helps you keep TODO lists, notes and more
+(require 'prelude-org) ;; Org-mode helps you keep TODO lists, notes and more
 ;; (require 'prelude-perl)
-;; (require 'prelude-python)
+(require 'prelude-python)
 ;; (require 'prelude-ruby)
 ;; (require 'prelude-scala)
 ;; (require 'prelude-scheme)
