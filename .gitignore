@@ -1,12 +1,7 @@
 /emacs.d/backups/
 /emacs.d/auto-save-list/
-/emacs.d/state
 /emacs.d/ac-comphist.dat
-/emacs.d/contrib/key-chord
 /emacs.d/site-lisp/personal.el
-/emacs.d/packages/
-/emacs.d/url/
-/emacs.d/.cask/
 /emacs.d/projectile-bookmarks.eld
 /zsh/history
 /zsh/personal.sh
