@@ -137,20 +137,7 @@
 ;;             ;fix:yasnippet completion source is broken
 ;;             ;(add-to-list 'ac-sources 'ac-source-yasnippet)
 ;;             (define-key py-mode-map "'" 'skeleton-pair-insert-maybe)
-;;             (flymake-mode)
 ;; ))
-
-;; (setq pycodechecker "~/local/bin/pycheck.sh")
-;; (when (load "flymake" t)
-;;   (defun flymake-pycodecheck-init ()
-;;     (let* ((temp-file (flymake-init-create-temp-buffer-copy
-;;                        'flymake-create-temp-inplace))
-;;            (local-file (file-relative-name
-;;                         temp-file
-;;                         (file-name-directory buffer-file-name))))
-;;       (list pycodechecker (list local-file))))
-;;   (add-to-list 'flymake-allowed-file-name-masks
-;;                '("\\.py\\'" flymake-pycodecheck-init)))
 
 ;; ; clean up the mode line
 ;; (require 'diminish)
@@ -158,21 +145,6 @@
 ;; (eval-after-load 'abbrev '(diminish 'abbrev-mode "Ab"))
 ;; (eval-after-load 'flyspell '(diminish 'flyspell-mode "FSp"))
 ;; (eval-after-load 'ropemacs '(diminish 'ropemacs-mode "Rp"))
-
-;; ; diminish flymake mode line without losing the number of errors and warnings
-;; (defun flymake-report-short-status (e-w &optional status)
-;;   "Show shortened status in mode line."
-;;   (when e-w
-;;     (setq flymake-mode-line-e-w e-w))
-;;   (when status
-;;     (setq flymake-mode-line-status status))
-;;   (let* ((mode-line " FMk"))
-;;     (when (> (length flymake-mode-line-e-w) 0)
-;;       (setq mode-line (concat mode-line ":" flymake-mode-line-e-w)))
-;;     (setq mode-line (concat mode-line flymake-mode-line-status))
-;;     (setq flymake-mode-line mode-line)
-;;     (force-mode-line-update)))
-;; (defalias 'flymake-report-status 'flymake-report-short-status)
 
 ;; (add-hook 'emacs-lisp-mode-hook
 ;;           (lambda () (setq mode-name "ELisp")))
@@ -182,13 +154,6 @@
 ;;           (lambda () (setq mode-name "Txt")))
 ;; (add-hook 'shell-mode-hook
 ;;           (lambda () (setq mode-name "Sh")))
-
-;; (require 'flymake-cursor)
-
-;; (global-set-key (kbd "C-c n") 'flymake-goto-next-error)
-;; (global-set-key (kbd "C-c p") 'flymake-goto-prev-error)
-;; (setq flymake-no-changes-timeout 3)
-;; (setq flymake-start-syntax-check-on-newline nil)
 
 ;; ; get some commands to work through the terminal
 ;; (define-key key-translation-map (kbd "S-<f9>") (kbd "C-;"))
