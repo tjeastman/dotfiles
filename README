@@ -32,3 +32,9 @@ python setup.py install --home=$HOME/local/
 
 infocmp rxvt-unicode-256color > rxvt-unicode-256color.ti
 tic rxvt-unicode-256color.ti
+
+
+dconf dump /org/gnome/terminal/legacy/profiles:/ > backup
+dconf reset -f /org/gnome/terminal/legacy/profiles:/
+sh gnome-terminal/install.sh zenburn gnome-terminal/settings.txt
+dconf load /org/gnome/terminal/legacy/profiles:/ < backup

@@ -1,0 +1,9 @@
+[/]
+foreground-color='rgb(220,220,204)'
+palette=['rgb(63,63,63)', 'rgb(204,147,147)', 'rgb(127,159,127)', 'rgb(227,206,171)', 'rgb(223,175,143)', 'rgb(204,147,147)', 'rgb(140,208,211)', 'rgb(220,220,204)', 'rgb(63,63,63)', 'rgb(204,147,147)', 'rgb(127,159,127)', 'rgb(227,206,171)', 'rgb(223,175,143)', 'rgb(204,147,147)', 'rgb(140,208,211)', 'rgb(220,220,204)']
+use-theme-colors=false
+scrollback-unlimited=true
+bold-color-same-as-fg=false
+bold-color='rgb(227,206,171)'
+background-color='rgb(63,63,63)'
+scrollbar-policy='never'
