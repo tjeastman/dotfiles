@@ -43,3 +43,6 @@ export PYTHONPATH="$HOME/local/lib/python/"
 
 source $HOME/.zsh/personal.sh
 source $HOME/.zsh/custom.zsh-theme
+
+# remove alias from the debian plugin
+unalias ag
