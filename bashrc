@@ -113,3 +113,8 @@ fi
 export BASH_IT=$HOME/.bash/contrib/bash-it
 source $BASH_IT/bash_it.sh
 source $HOME/.bash/bash_theme.bash
+
+# load autojump
+if [ -f /usr/share/autojump/autojump.bash ]; then
+    . /usr/share/autojump/autojump.bash
+fi
