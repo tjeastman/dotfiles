@@ -1,4 +1,4 @@
-personal_ws-1.1 en 20 
+personal_ws-1.1 en 21
 bootloader
 subdirectories
 dataset
@@ -19,3 +19,4 @@ yasnippet
 readme
 analyses
 metadata
+sigmoid
