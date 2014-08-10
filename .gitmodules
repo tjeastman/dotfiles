@@ -7,3 +7,6 @@
 [submodule "zsh/contrib/zsh-completions"]
 	path = zsh/contrib/zsh-completions
 	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "bash/contrib/bash-it"]
+	path = bash/contrib/bash-it
+	url = https://github.com/revans/bash-it.git
