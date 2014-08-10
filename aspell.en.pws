@@ -1,4 +1,4 @@
-personal_ws-1.1 en 21
+personal_ws-1.1 en 23
 bootloader
 subdirectories
 dataset
@@ -20,3 +20,5 @@ readme
 analyses
 metadata
 sigmoid
+SMO
+SVM
