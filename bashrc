@@ -110,5 +110,5 @@ if ! shopt -oq posix; then
 fi
 
 # load bash-it
-export BASH_IT=$HOME/.bash_it
+export BASH_IT=$HOME/.bash/contrib/bash-it
 source $BASH_IT/bash_it.sh
