@@ -108,3 +108,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# load bash-it
+export BASH_IT=$HOME/.bash_it
+source $BASH_IT/bash_it.sh
