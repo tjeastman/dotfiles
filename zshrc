@@ -46,3 +46,6 @@ source $HOME/.zsh/custom.zsh-theme
 
 # remove alias from the debian plugin
 unalias ag
+
+# add zsh-completions to $fpath
+fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
