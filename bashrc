@@ -112,3 +112,4 @@ fi
 # load bash-it
 export BASH_IT=$HOME/.bash/contrib/bash-it
 source $BASH_IT/bash_it.sh
+source $HOME/.bash/bash_theme.bash
