@@ -39,9 +39,10 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 HISTFILE=$HOME/.zsh/history
 
-export PYTHONPATH="$HOME/local/lib/python/"
+if [ -f $HOME/.zsh_personal ]; then
+    source $HOME/.zsh_personal
+fi
 
-source $HOME/.zsh/personal.sh
 source $HOME/.zsh/custom.zsh-theme
 
 # remove alias from the debian plugin
