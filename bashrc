@@ -118,3 +118,7 @@ source $HOME/.bash/bash_theme.bash
 if [ -f /usr/share/autojump/autojump.bash ]; then
     . /usr/share/autojump/autojump.bash
 fi
+
+if [ -f ~/.bash_personal ]; then
+    . ~/.bash_personal
+fi
