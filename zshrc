@@ -37,7 +37,7 @@ plugins=(git debian screen python autojump docker vagrant sudo dircycle jira)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-HISTFILE=$HOME/.zsh/history
+HISTFILE=$HOME/.zsh_history
 
 if [ -f $HOME/.zsh_personal ]; then
     source $HOME/.zsh_personal
