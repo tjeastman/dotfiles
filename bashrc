@@ -114,6 +114,25 @@ export BASH_IT=$HOME/.bash/contrib/bash-it
 source $BASH_IT/bash_it.sh
 source $HOME/.bash/bash_theme.bash
 
+# load bash-it aliases
+source $BASH_IT/aliases/available/general.aliases.bash
+source $BASH_IT/aliases/available/emacs.aliases.bash
+source $BASH_IT/aliases/available/git.aliases.bash
+source $BASH_IT/aliases/available/vagrant.aliases.bash
+
+# load bash-it completions
+source $BASH_IT/completion/available/bash-it.completion.bash
+source $BASH_IT/completion/available/defaults.completion.bash
+source $BASH_IT/completion/available/git.completion.bash
+source $BASH_IT/completion/available/ssh.completion.bash
+
+# load bash-it plugins
+source $BASH_IT/plugins/available/base.plugin.bash
+source $BASH_IT/plugins/available/git.plugin.bash
+source $BASH_IT/plugins/available/ssh.plugin.bash
+source $BASH_IT/plugins/available/vagrant.plugin.bash
+source $BASH_IT/plugins/available/virtualenv.plugin.bash
+
 # load autojump
 if [ -f /usr/share/autojump/autojump.bash ]; then
     . /usr/share/autojump/autojump.bash
