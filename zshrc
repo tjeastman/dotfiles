@@ -43,6 +43,14 @@ if [ -f $HOME/.zsh_personal ]; then
     source $HOME/.zsh_personal
 fi
 
+# set up user-specific path
+if [ -d $HOME/bin ]; then
+    export PATH=$HOME/bin:$PATH
+fi
+if [ -d $HOME/.local/bin ]; then
+    export PATH=$HOME/.local/bin:$PATH
+fi
+
 source $HOME/.zsh/custom.zsh-theme
 
 # remove alias from the debian plugin
