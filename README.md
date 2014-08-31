@@ -8,7 +8,6 @@ git clone https://github.com/tjeastman/dotfiles.git
 
 Make symlinks:
 ```
-ln -s dotfiles/emacs.d .emacs.d
 ln -s dotfiles/zsh .zsh
 ln -s dotfiles/zshrc .zshrc
 ln -s dotfiles/octaverc .octaverc
