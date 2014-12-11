@@ -25,9 +25,7 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git debian screen python autojump docker vagrant sudo dircycle jira gradle pip)
-
-source $ZSH/oh-my-zsh.sh
+plugins=(git debian screen python autojump docker vagrant sudo dircycle jira gradle pip virtualenvwrapper)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
@@ -44,6 +42,7 @@ if [ -d $HOME/.local/bin ]; then
     export PATH=$HOME/.local/bin:$PATH
 fi
 
+source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/custom.zsh-theme
 
 # remove alias from the debian plugin
