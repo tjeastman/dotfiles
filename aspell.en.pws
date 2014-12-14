@@ -1,4 +1,4 @@
-personal_ws-1.1 en 23
+personal_ws-1.1 en 26
 bootloader
 subdirectories
 dataset
@@ -22,3 +22,6 @@ metadata
 sigmoid
 SMO
 SVM
+AMI
+Ubuntu
+filesystem
