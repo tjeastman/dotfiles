@@ -50,3 +50,6 @@ unalias ag
 
 # add zsh-completions to $fpath
 fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
+
+# set path to host alias file
+export HOSTALIASES=~/.hosts
