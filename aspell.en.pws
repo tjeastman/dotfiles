@@ -1,4 +1,4 @@
-personal_ws-1.1 en 32
+personal_ws-1.1 en 33
 bootloader
 subdirectories
 dataset
@@ -31,3 +31,4 @@ subquery
 subclasses
 namespace
 iterable
+SQL
