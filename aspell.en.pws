@@ -1,4 +1,4 @@
-personal_ws-1.1 en 41
+personal_ws-1.1 en 43
 bootloader
 subdirectories
 dataset
@@ -40,3 +40,5 @@ passphrase
 sudo
 ipython
 enum
+memoize
+memoization
