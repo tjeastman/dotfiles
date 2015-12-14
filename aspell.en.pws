@@ -1,4 +1,4 @@
-personal_ws-1.1 en 51
+personal_ws-1.1 en 53
 bootloader
 subdirectories
 dataset
@@ -50,3 +50,5 @@ HBase
 classpath
 collectd
 Ansible
+hostname
+FQDN
