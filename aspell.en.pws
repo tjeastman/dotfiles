@@ -1,4 +1,4 @@
-personal_ws-1.1 en 53
+personal_ws-1.1 en 54
 bootloader
 subdirectories
 dataset
@@ -52,3 +52,4 @@ collectd
 Ansible
 hostname
 FQDN
+sqlite
