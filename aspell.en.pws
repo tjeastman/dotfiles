@@ -1,4 +1,4 @@
-personal_ws-1.1 en 54
+personal_ws-1.1 en 55
 bootloader
 subdirectories
 dataset
@@ -53,3 +53,4 @@ Ansible
 hostname
 FQDN
 sqlite
+virtualenvwrapper
