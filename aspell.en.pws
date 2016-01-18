@@ -1,4 +1,4 @@
-personal_ws-1.1 en 59
+personal_ws-1.1 en 58
 bootloader
 subdirectories
 dataset
@@ -57,4 +57,3 @@ virtualenvwrapper
 USBtinyISP
 udev
 InfluxDB
-ATtiny85
