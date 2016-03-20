@@ -1,4 +1,4 @@
-personal_ws-1.1 en 65
+personal_ws-1.1 en 68
 bootloader
 subdirectories
 dataset
@@ -64,3 +64,6 @@ uncomment
 JIRA
 struct
 extern
+AVR
+GCC
+LUFA
