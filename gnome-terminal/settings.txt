@@ -7,3 +7,5 @@ bold-color-same-as-fg=false
 bold-color='rgb(227,206,171)'
 background-color='rgb(63,63,63)'
 scrollbar-policy='never'
+allow-bold=false
+audible-bell=false
