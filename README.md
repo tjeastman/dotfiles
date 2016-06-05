@@ -30,6 +30,6 @@ Set up gnome-terminal:
 ```
 dconf dump /org/gnome/terminal/legacy/profiles:/ > backup
 dconf reset -f /org/gnome/terminal/legacy/profiles:/
-sh gnome-terminal/install.sh zenburn gnome-terminal/settings.txt
+./gnome-terminal/install-default-theme.sh zenburn gnome-terminal/zenburn.txt
 dconf load /org/gnome/terminal/legacy/profiles:/ < backup
 ```
