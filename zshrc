@@ -45,6 +45,11 @@ fi
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/custom.zsh-theme
 
+# enable Google Cloud SDK completions
+if [ -e /usr/share/google-cloud-sdk/completion.zsh.inc ]; then
+    source /usr/share/google-cloud-sdk/completion.zsh.inc
+fi
+
 # remove alias from the debian plugin
 unalias ag
 
