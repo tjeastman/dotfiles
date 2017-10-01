@@ -7,3 +7,6 @@
 [submodule "bash/contrib/bash-it"]
 	path = bash/contrib/bash-it
 	url = https://github.com/revans/bash-it.git
+[submodule "zsh/contrib/zsh-autosuggestions"]
+	path = zsh/contrib/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git

@@ -45,6 +45,10 @@ fi
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/custom.zsh-theme
 
+# set up zsh autosuggestions
+source $HOME/.zsh/contrib/zsh-autosuggestions/zsh-autosuggestions.zsh
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=2'
+
 # enable Google Cloud SDK completions
 if [ -e /usr/share/google-cloud-sdk/completion.zsh.inc ]; then
     source /usr/share/google-cloud-sdk/completion.zsh.inc
