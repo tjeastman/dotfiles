@@ -16,6 +16,7 @@ ln -s dotfiles/sqliterc .sqliterc
 ln -s dotfiles/gitconfig .gitconfig
 ln -s dotfiles/Xdefaults .Xdefaults
 ln -s dotfiles/aspell.en.pws .aspell.en.pws
+ln -s dotfiles/pylintrc .pylintrc
 ```
 
 Add name and email to the `.gitconfig.user` file.
