@@ -1,2 +1,4 @@
 [MASTER]
 disable= C0111
+
+max-line-length=120
