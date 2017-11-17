@@ -17,6 +17,7 @@ ln -s dotfiles/gitconfig .gitconfig
 ln -s dotfiles/Xdefaults .Xdefaults
 ln -s dotfiles/aspell.en.pws .aspell.en.pws
 ln -s dotfiles/pylintrc .pylintrc
+ln -s dotfiles/profile .profile
 ```
 
 Add name and email to the `.gitconfig.user` file.
