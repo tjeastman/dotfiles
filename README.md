@@ -20,6 +20,11 @@ ln -s dotfiles/pylintrc .pylintrc
 ln -s dotfiles/profile .profile
 ```
 
+Install some Python packages:
+```
+pip install -r requirements.txt --user
+```
+
 Add name and email to the `.gitconfig.user` file.
 
 This file may be needed to set up rxvt on some hosts:
