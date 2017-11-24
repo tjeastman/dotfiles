@@ -18,6 +18,7 @@ ln -s dotfiles/Xdefaults .Xdefaults
 ln -s dotfiles/aspell.en.pws .aspell.en.pws
 ln -s dotfiles/pylintrc .pylintrc
 ln -s dotfiles/profile .profile
+ln -s dotfiles/ctags .ctags
 ```
 
 Install some Python packages:
