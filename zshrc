@@ -54,9 +54,6 @@ if [ -e /usr/share/google-cloud-sdk/completion.zsh.inc ]; then
     source /usr/share/google-cloud-sdk/completion.zsh.inc
 fi
 
-# remove alias from the debian plugin
-unalias ag
-
 # add zsh-completions to $fpath
 fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
 
