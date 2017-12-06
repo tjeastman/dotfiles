@@ -59,3 +59,10 @@ fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
 
 # set path to host alias file
 export HOSTALIASES=~/.hosts
+
+# When set, Docker hides "legacy" top-level commands (such as docker
+# rm, and docker pull) in docker help output, and only Management
+# commands per object-type (e.g., docker container) are printed. This
+# may become the default in a future release, at which point this
+# environment-variable is removed.
+export DOCKER_HIDE_LEGACY_COMMANDS=1
