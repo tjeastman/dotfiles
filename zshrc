@@ -59,3 +59,6 @@ fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
 
 # set path to host alias file
 export HOSTALIASES=~/.hosts
+
+# disable cowsay Ansible output
+export ANSIBLE_NOCOWS=1
