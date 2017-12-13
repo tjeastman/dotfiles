@@ -66,3 +66,22 @@ export HOSTALIASES=~/.hosts
 # may become the default in a future release, at which point this
 # environment-variable is removed.
 export DOCKER_HIDE_LEGACY_COMMANDS=1
+
+# Create a new virtualenv for a project with standard development packages.
+# This function assumes that the name of the current top-level directory is
+# an appropriate name for the project and the corresponding virtualenv.
+function penv() {
+    envname=$(basename `pwd`)
+    mkvirtualenv -p python3.6 $envname
+    pip install --no-cache-dir --upgrade \
+        autopep8 \
+        awscli \
+        flake8 \
+        importmagic \
+        ipython \
+        jedi \
+        nose \
+        pytest \
+        tox \
+        yapf
+}
