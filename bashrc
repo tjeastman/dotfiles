@@ -126,6 +126,7 @@ source $BASH_IT/plugins/available/base.plugin.bash
 source $BASH_IT/plugins/available/git.plugin.bash
 source $BASH_IT/plugins/available/ssh.plugin.bash
 source $BASH_IT/plugins/available/virtualenv.plugin.bash
+source $BASH_IT/plugins/available/xterm.plugin.bash
 
 # load autojump
 if [ -f /usr/share/autojump/autojump.bash ]; then
