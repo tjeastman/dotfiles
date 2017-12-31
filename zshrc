@@ -73,6 +73,7 @@ export DOCKER_HIDE_LEGACY_COMMANDS=1
 function penv() {
     envname=$(basename `pwd`)
     mkvirtualenv -p python3.6 $envname
+    add2virtualenv `pwd`
     pip install --no-cache-dir --upgrade \
         autopep8 \
         awscli \
