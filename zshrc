@@ -83,6 +83,7 @@ function penv() {
         jedi \
         nose \
         pytest \
+        rope \
         tox \
         yapf
 }
