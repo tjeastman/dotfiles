@@ -75,7 +75,7 @@ export DOCKER_HIDE_LEGACY_COMMANDS=1
 # an appropriate name for the project and the corresponding virtualenv.
 function penv() {
     envname=$(basename `pwd`)
-    mkvirtualenv -p python3.6 $envname
+    mkvirtualenv -p python3 $envname
     add2virtualenv `pwd`
     pip install --no-cache-dir --upgrade \
         autopep8 \
