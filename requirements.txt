@@ -2,5 +2,6 @@ autopep8
 flake8
 importmagic
 jedi
+pipenv
 virtualenvwrapper
 yapf
