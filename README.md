@@ -28,17 +28,3 @@ pip install -r requirements.txt --user
 ```
 
 Add name and email to the `.gitconfig.user` file.
-
-This file may be needed to set up rxvt on some hosts:
-```
-infocmp rxvt-unicode-256color > rxvt-unicode-256color.ti
-tic rxvt-unicode-256color.ti
-```
-
-Set up gnome-terminal:
-```
-dconf dump /org/gnome/terminal/legacy/profiles:/ > backup
-dconf reset -f /org/gnome/terminal/legacy/profiles:/
-./gnome-terminal/install-default-theme.sh zenburn gnome-terminal/zenburn.txt
-dconf load /org/gnome/terminal/legacy/profiles:/ < backup
-```
