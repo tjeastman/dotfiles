@@ -41,7 +41,8 @@ plugins=(
     colorize
     golang
     kubectl
-    pyenv)
+    pyenv
+    terraform)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
