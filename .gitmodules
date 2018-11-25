@@ -10,3 +10,6 @@
 [submodule "zsh/contrib/zsh-autosuggestions"]
 	path = zsh/contrib/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "python/contrib/pyenv"]
+	path = python/contrib/pyenv
+	url = https://github.com/pyenv/pyenv.git
