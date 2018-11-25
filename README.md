@@ -20,6 +20,7 @@ ln -s dotfiles/pylintrc .pylintrc
 ln -s dotfiles/profile .profile
 ln -s dotfiles/ctags .ctags
 ln -s dotfiles/ansible.cfg .ansible.cfg
+ln -s dotfiles/python/contrib/pyenv .pyenv
 ```
 
 Install some Python packages:
