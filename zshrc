@@ -42,7 +42,8 @@ plugins=(
     golang
     kubectl
     pyenv
-    terraform)
+    terraform
+    minikube)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
