@@ -59,6 +59,8 @@ if [ -d $HOME/.local/bin ]; then
     export PATH=$HOME/.local/bin:$PATH
 fi
 
+export WORKON_HOME=$HOME/.local/share/virtualenvs
+
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/custom.zsh-theme
 
