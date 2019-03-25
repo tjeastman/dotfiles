@@ -13,3 +13,6 @@
 [submodule "python/contrib/pyenv"]
 	path = python/contrib/pyenv
 	url = https://github.com/pyenv/pyenv.git
+[submodule "python/contrib/pyenv-virtualenvwrapper"]
+	path = python/contrib/pyenv-virtualenvwrapper
+	url = https://github.com/pyenv/pyenv-virtualenvwrapper.git
