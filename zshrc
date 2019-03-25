@@ -36,7 +36,6 @@ plugins=(
     sudo
     dircycle
     pip
-    virtualenvwrapper
     ssh-agent
     colorize
     golang
