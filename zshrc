@@ -64,6 +64,8 @@ export WORKON_HOME=$HOME/.local/share/virtualenvs
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/custom.zsh-theme
 
+pyenv virtualenvwrapper_lazy
+
 # set up zsh autosuggestions
 source $HOME/.zsh/contrib/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=2'
