@@ -27,3 +27,4 @@ URxvt.keysym.C-BackSpace: \033[33~
 URxvt.keysym.C-semicolon: \033[33~
 URxvt.keysym.C-equal: \033[32~
 URxvt.keysym.C-comma: \033[31~
+Emacs.font: inconsolata-10
