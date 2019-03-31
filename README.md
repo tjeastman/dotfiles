@@ -23,6 +23,7 @@ ln -s dotfiles/ctags .ctags
 ln -s dotfiles/ansible.cfg .ansible.cfg
 ln -s dotfiles/avrduderc .avrduderc
 ln -s dotfiles/python/contrib/pyenv .pyenv
+ln -s dotfiles/i3 .i3
 ```
 
 Install some Python packages:
