@@ -24,6 +24,7 @@ ln -s dotfiles/ansible.cfg .ansible.cfg
 ln -s dotfiles/avrduderc .avrduderc
 ln -s dotfiles/python/contrib/pyenv .pyenv
 ln -s dotfiles/i3 .i3
+ln -s dotfiles/i3status.conf .i3status.conf
 ```
 
 Install some Python packages:
