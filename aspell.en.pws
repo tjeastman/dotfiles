@@ -1,4 +1,4 @@
-personal_ws-1.1 en 97
+personal_ws-1.1 en 100
 bootloader
 subdirectories
 dataset
@@ -96,3 +96,6 @@ runtime
 datestamp
 cython
 numba
+OSI
+TCP
+RST
