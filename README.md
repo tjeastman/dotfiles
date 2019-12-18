@@ -17,7 +17,6 @@ ln -s dotfiles/gitconfig .gitconfig
 ln -s dotfiles/gitignore.global .gitignore.global
 ln -s dotfiles/Xresources .Xresources
 ln -s dotfiles/aspell.en.pws .aspell.en.pws
-ln -s dotfiles/pylintrc .pylintrc
 ln -s dotfiles/profile .profile
 ln -s dotfiles/ctags .ctags
 ln -s dotfiles/ansible.cfg .ansible.cfg
