@@ -27,9 +27,4 @@ ln -s dotfiles/i3 .i3
 ln -s dotfiles/i3status.conf .i3status.conf
 ```
 
-Install some Python packages:
-```
-pip install -r requirements.txt --user
-```
-
 Add name and email to the `.gitconfig.user` file.
