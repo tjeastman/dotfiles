@@ -81,9 +81,6 @@ fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
 # set path to host alias file
 export HOSTALIASES=~/.hosts
 
-# disable cowsay Ansible output
-export ANSIBLE_NOCOWS=1
-
 # When set, Docker hides "legacy" top-level commands (such as docker
 # rm, and docker pull) in docker help output, and only Management
 # commands per object-type (e.g., docker container) are printed. This
