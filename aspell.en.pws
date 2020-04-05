@@ -1,4 +1,4 @@
-personal_ws-1.1 en 106
+personal_ws-1.1 en 108
 bootloader
 subdirectories
 dataset
@@ -105,3 +105,5 @@ unicode
 ripgrep
 deadgrep
 polymorphism
+lvalue
+rvalue
