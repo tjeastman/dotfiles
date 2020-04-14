@@ -1,4 +1,4 @@
-personal_ws-1.1 en 110
+personal_ws-1.1 en 122
 bootloader
 subdirectories
 dataset
@@ -31,6 +31,7 @@ subquery
 subqueries
 subclasses
 namespace
+namespaces
 iterable
 SQL
 potentiometer
@@ -109,3 +110,14 @@ lvalue
 rvalue
 destructor
 dereference
+dereferencing
+modularity
+const
+declarator
+nullptr
+reentrant
+invariants
+deallocate
+deallocated
+destructors
+unary
