@@ -1,4 +1,4 @@
-personal_ws-1.1 en 122
+personal_ws-1.1 en 124
 bootloader
 subdirectories
 dataset
@@ -121,3 +121,5 @@ deallocate
 deallocated
 destructors
 unary
+haplotype
+haplotypes
