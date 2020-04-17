@@ -42,7 +42,8 @@ plugins=(
     kubectl
     pyenv
     terraform
-    minikube)
+    minikube
+    direnv)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
