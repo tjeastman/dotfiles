@@ -24,6 +24,7 @@ ln -s dotfiles/avrduderc .avrduderc
 ln -s dotfiles/python/contrib/pyenv .pyenv
 ln -s dotfiles/i3 .i3
 ln -s dotfiles/i3status.conf .i3status.conf
+ln -s dotfiles/tmux.conf .tmux.conf
 ```
 
 Add name and email to the `.gitconfig.user` file.
