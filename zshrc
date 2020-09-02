@@ -43,7 +43,8 @@ plugins=(
     pyenv
     terraform
     minikube
-    direnv)
+    direnv
+    lein)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
