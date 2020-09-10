@@ -64,7 +64,11 @@ fi
 export WORKON_HOME=$HOME/.local/share/virtualenvs
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/.zsh/custom.zsh-theme
+if [ -e $HOME/.zsh-theme ]; then
+    source $HOME/.zsh-theme
+else
+    source $HOME/.zsh/custom.zsh-theme
+fi
 
 pyenv virtualenvwrapper_lazy
 
