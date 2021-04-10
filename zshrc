@@ -76,11 +76,6 @@ pyenv virtualenvwrapper_lazy
 source $HOME/.zsh/contrib/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=2'
 
-# enable Google Cloud SDK completions
-if [ -e /usr/share/google-cloud-sdk/completion.zsh.inc ]; then
-    source /usr/share/google-cloud-sdk/completion.zsh.inc
-fi
-
 # add zsh-completions to $fpath
 fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
 
