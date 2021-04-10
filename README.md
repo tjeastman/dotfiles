@@ -28,3 +28,5 @@ ln -s dotfiles/tmux.conf .tmux.conf
 ```
 
 Add name and email to the `.gitconfig.user` file.
+
+Add symlink for pyenv-virtualenvwrapper plugin in `python/contrib/pyenv/plugins/` directory.
