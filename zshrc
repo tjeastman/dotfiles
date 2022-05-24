@@ -44,7 +44,8 @@ plugins=(
     terraform
     minikube
     direnv
-    lein)
+    lein
+    pipenv)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
