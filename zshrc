@@ -32,7 +32,6 @@ plugins=(
     python
     autojump
     docker
-    vagrant
     sudo
     dircycle
     pip
