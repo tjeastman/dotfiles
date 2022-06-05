@@ -81,7 +81,7 @@ fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
 
 # The Fuck corrects errors in previous console commands
 if [[ $commands[thefuck] ]]; then
-    eval $(thefuck --alias)
+    eval $(thefuck --alias f)
 fi
 
 # set path to host alias file
