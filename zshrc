@@ -63,6 +63,8 @@ fi
 
 export WORKON_HOME=$HOME/.local/share/virtualenvs
 
+export ZSH_PYENV_QUIET=true
+
 source $ZSH/oh-my-zsh.sh
 if [ -e $HOME/.zsh-theme ]; then
     source $HOME/.zsh-theme
