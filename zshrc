@@ -61,8 +61,6 @@ if [ -d $HOME/.local/bin ]; then
     export PATH=$HOME/.local/bin:$PATH
 fi
 
-export WORKON_HOME=$HOME/.local/share/virtualenvs
-
 export ZSH_PYENV_QUIET=true
 
 source $ZSH/oh-my-zsh.sh
@@ -71,8 +69,6 @@ if [ -e $HOME/.zsh-theme ]; then
 else
     source $HOME/.zsh/custom.zsh-theme
 fi
-
-pyenv virtualenvwrapper_lazy
 
 # set up zsh autosuggestions
 source $HOME/.zsh/contrib/zsh-autosuggestions/zsh-autosuggestions.zsh
