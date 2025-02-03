@@ -16,3 +16,6 @@
 [submodule "python/contrib/pyenv-virtualenvwrapper"]
 	path = python/contrib/pyenv-virtualenvwrapper
 	url = https://github.com/pyenv/pyenv-virtualenvwrapper.git
+[submodule "javascript/contrib/nvm"]
+	path = javascript/contrib/nvm
+	url = https://github.com/nvm-sh/nvm.git

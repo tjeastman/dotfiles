@@ -44,7 +44,8 @@ plugins=(
     minikube
     direnv
     lein
-    pipenv)
+    pipenv
+    nvm)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
