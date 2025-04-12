@@ -45,7 +45,8 @@ plugins=(
     direnv
     lein
     pipenv
-    nvm)
+    nvm
+    fzf)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
