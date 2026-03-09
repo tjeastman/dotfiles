@@ -1,3 +1,0 @@
--e
---exclude=.git
---exclude=flycheck_*

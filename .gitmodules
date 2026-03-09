@@ -4,18 +4,9 @@
 [submodule "zsh/contrib/zsh-completions"]
 	path = zsh/contrib/zsh-completions
 	url = https://github.com/zsh-users/zsh-completions.git
-[submodule "bash/contrib/bash-it"]
-	path = bash/contrib/bash-it
-	url = https://github.com/revans/bash-it.git
 [submodule "zsh/contrib/zsh-autosuggestions"]
 	path = zsh/contrib/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
-[submodule "python/contrib/pyenv"]
-	path = python/contrib/pyenv
-	url = https://github.com/pyenv/pyenv.git
-[submodule "python/contrib/pyenv-virtualenvwrapper"]
-	path = python/contrib/pyenv-virtualenvwrapper
-	url = https://github.com/pyenv/pyenv-virtualenvwrapper.git
 [submodule "javascript/contrib/nvm"]
 	path = javascript/contrib/nvm
 	url = https://github.com/nvm-sh/nvm.git

@@ -61,8 +61,6 @@ if [ -d $HOME/.local/bin ]; then
     export PATH=$HOME/.local/bin:$PATH
 fi
 
-export ZSH_PYENV_QUIET=true
-
 source $ZSH/oh-my-zsh.sh
 if [ -e $HOME/.zsh-theme ]; then
     source $HOME/.zsh-theme
