@@ -30,7 +30,6 @@ plugins=(
     debian
     screen
     python
-    autojump
     docker
     sudo
     dircycle
@@ -47,7 +46,8 @@ plugins=(
     pipenv
     nvm
     fzf
-    eza)
+    eza
+    zoxide)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
