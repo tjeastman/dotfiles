@@ -33,17 +33,14 @@ plugins=(
     docker
     sudo
     dircycle
-    pip
     ssh-agent
     colorize
     golang
     kubectl
-    pyenv
     terraform
     minikube
     direnv
     lein
-    pipenv
     nvm
     fzf
     eza
