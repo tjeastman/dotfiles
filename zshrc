@@ -46,7 +46,8 @@ plugins=(
     lein
     pipenv
     nvm
-    fzf)
+    fzf
+    eza)
 
 # Customize to your needs...
 HISTFILE=$HOME/.zsh_history
@@ -82,18 +83,6 @@ fpath=($HOME/.zsh/contrib/zsh-completions/src $fpath)
 # The Fuck corrects errors in previous console commands
 if [[ $commands[thefuck] ]]; then
     eval $(thefuck --alias f)
-fi
-
-# exa is an improved file listing program
-if [[ $commands[exa] ]]; then
-    export EXA_COLORS="di=34:ur=33:uw=31:ux=32:uu=33:gu=33:sn=32:sb=36:lc=31"
-    alias ll='exa -lgF'
-    alias la='exa -lghHigmuSa --time-style=long-iso --color-scale'
-    alias lx='exa -lghHigmuSa@ --time-style=long-iso --color-scale'
-    alias llt='exa -lg --tree'
-    alias lt='exa --tree --level=2'
-    alias llm='exa -lgF --sort=modified'
-    alias lld='exa -lghHFmuSa --group-directories-first'
 fi
 
 # set path to host alias file
