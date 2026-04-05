@@ -15,12 +15,9 @@ ln -s dotfiles/screenrc .screenrc
 ln -s dotfiles/sqliterc .sqliterc
 ln -s dotfiles/gitconfig .gitconfig
 ln -s dotfiles/gitignore.global .gitignore.global
-ln -s dotfiles/Xresources .Xresources
 ln -s dotfiles/aspell.en.pws .aspell.en.pws
-ln -s dotfiles/avrduderc .avrduderc
 ln -s dotfiles/i3 .i3
 ln -s dotfiles/i3status.conf .i3status.conf
-ln -s dotfiles/tmux.conf .tmux.conf
 ```
 
 Add name and email to the `.gitconfig.user` file.
