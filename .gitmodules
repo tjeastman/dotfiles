@@ -7,6 +7,3 @@
 [submodule "zsh/contrib/zsh-autosuggestions"]
 	path = zsh/contrib/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
-[submodule "javascript/contrib/nvm"]
-	path = javascript/contrib/nvm
-	url = https://github.com/nvm-sh/nvm.git
